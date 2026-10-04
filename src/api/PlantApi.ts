@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { createApi, fakeBaseQuery } from "@reduxjs/toolkit/query/react";
 import type {
     Accessory,
     Banner,
@@ -9,15 +9,55 @@ import type {
     SearchResult,
     SubCategory
 } from "../types";
+import { supabase } from "../config/supabaseClient";
+
+// تابعی برای تبدیل فیلدهای snake_case به camelCase دیتابیس
+const mapPlant = (item: any): Plant => ({
+    ...item,
+    discountPrice: item.discount_price,
+    categoryId: item.category_id,
+    subCategoryId: item.sub_category_id,
+    collectionIds: item.collection_ids,
+    inStock: item.in_stock,
+    isFeatured: item.is_featured,
+    careLevel: item.care_level,
+    plantSize: item.plant_size,
+    lightLevel: item.light_level,
+    desc: item.description,
+});
+
+const mapAccessory = (item: any): Accessory => ({
+    ...item,
+    discountPrice: item.discount_price,
+    categoryId: item.category_id,
+    subCategoryId: item.sub_category_id,
+    collectionIds: item.collection_ids,
+    inStock: item.in_stock,
+    isFeatured: item.is_featured,
+    desc: item.description,
+});
+
+const mapBanner = (item: any): Banner => ({
+    id: item.id,
+    title: item.title,
+    subtitle: item.subtitle,
+    ctaText: item.cta_text,
+    link: item.link,
+    images: item.images,
+});
 
 export const PlantsApi = createApi({
     reducerPath: 'plantApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:9000' }),
+    baseQuery: fakeBaseQuery(),
     tagTypes: ['PLANT', 'ACCESSORY', 'BANNER', 'CATEGORY', 'SUBCATEGORY', 'COLLECTION', 'POT'],
     endpoints: (build) => ({
         // --- PLANTS ---
         getAllPlants: build.query<Plant[], void>({
-            query: () => "/plants",
+            async queryFn() {
+                const { data, error } = await supabase.from('plants').select('*');
+                if (error) return { error };
+                return { data: (data || []).map(mapPlant) };
+            },
             providesTags: (result) =>
                 result
                     ? [
@@ -27,20 +67,31 @@ export const PlantsApi = createApi({
                     : [{ type: 'PLANT', id: 'LIST' }],
         }),
         getPlantBySlug: build.query<Plant | null, string>({
-            query: (slug) => `/plants?slug=${slug}`,
-            transformResponse: (response: Plant[]) => response[0] ?? null,
+            async queryFn(slug) {
+                const { data, error } = await supabase.from('plants').select('*').eq('slug', slug).single();
+                if (error && error.code !== 'PGRST116') return { error };
+                return { data: data ? mapPlant(data) : null };
+            },
             providesTags: (_, __, slug) => [{ type: 'PLANT', id: slug }],
         }),
 
         // --- BANNERS ---
         getBanner: build.query<Banner, void>({
-            query: () => `/banners`,
+            async queryFn() {
+                const { data, error } = await supabase.from('banners').select('*').limit(1).single();
+                if (error) return { error };
+                return { data: mapBanner(data) };
+            },
             providesTags: ['BANNER'],
         }),
 
         // --- ACCESSORIES ---
         getAllAccessories: build.query<Accessory[], void>({
-            query: () => "/accessories",
+            async queryFn() {
+                const { data, error } = await supabase.from('accessories').select('*');
+                if (error) return { error };
+                return { data: (data || []).map(mapAccessory) };
+            },
             providesTags: (result) =>
                 result
                     ? [
@@ -50,70 +101,116 @@ export const PlantsApi = createApi({
                     : [{ type: 'ACCESSORY', id: 'LIST' }],
         }),
         getAccessoryBySlug: build.query<Accessory | null, string>({
-            query: (slug) => `/accessories?slug=${slug}`,
-            transformResponse: (response: Accessory[]) => response[0] ?? null,
+            async queryFn(slug) {
+                const { data, error } = await supabase.from('accessories').select('*').eq('slug', slug).single();
+                if (error && error.code !== 'PGRST116') return { error };
+                return { data: data ? mapAccessory(data) : null };
+            },
             providesTags: (_, __, slug) => [{ type: 'ACCESSORY', id: slug }],
         }),
 
         // --- CATEGORIES ---
         getCategories: build.query<Category[], void>({
-            query: () => "/categories",
+            async queryFn() {
+                const { data, error } = await supabase.from('categories').select('*');
+                if (error) return { error };
+                return { data: data as Category[] };
+            },
             providesTags: ['CATEGORY'],
         }),
         getCategory: build.query<Category | null, string>({
-            query: (id) => `/categories?id=${id}`,
-            transformResponse: (response: Category[]) => response[0] ?? null,
+            async queryFn(id) {
+                const { data, error } = await supabase.from('categories').select('*').eq('id', id).single();
+                if (error && error.code !== 'PGRST116') return { error };
+                return { data: data as Category | null };
+            },
             providesTags: (_, __, id) => [{ type: 'CATEGORY', id }],
         }),
 
         // --- SUB-CATEGORIES ---
         getAllSubCategories: build.query<SubCategory[], void>({
-            query: () => "/subCategories",
+            async queryFn() {
+                const { data, error } = await supabase.from('sub_categories').select('*');
+                if (error) return { error };
+                const formatted = (data || []).map(item => ({
+                    ...item,
+                    categoryId: item.category_id,
+                }));
+                return { data: formatted as SubCategory[] };
+            },
             providesTags: ['SUBCATEGORY'],
         }),
         getSubCategory: build.query<SubCategory | null, string>({
-            query: (id) => `/subCategories?id=${id}`,
-            transformResponse: (response: SubCategory[]) => response[0] ?? null,
+            async queryFn(id) {
+                const { data, error } = await supabase.from('sub_categories').select('*').eq('id', id).single();
+                if (error && error.code !== 'PGRST116') return { error };
+                return {
+                    data: data ? { ...data, categoryId: data.category_id } as SubCategory : null
+                };
+            },
             providesTags: (_, __, id) => [{ type: 'SUBCATEGORY', id }],
         }),
         getSubCategoryByCategoryId: build.query<SubCategory[], string>({
-            query: (categoryId) => `/subCategories?categoryId=${categoryId}`,
+            async queryFn(categoryId) {
+                const { data, error } = await supabase.from('sub_categories').select('*').eq('category_id', categoryId);
+                if (error) return { error };
+                const formatted = (data || []).map(item => ({
+                    ...item,
+                    categoryId: item.category_id,
+                }));
+                return { data: formatted as SubCategory[] };
+            },
             providesTags: ['SUBCATEGORY'],
         }),
 
         // --- COLLECTIONS ---
         getAllCollections: build.query<Collections[], void>({
-            query: () => "/collections",
+            async queryFn() {
+                const { data, error } = await supabase.from('collections').select('*');
+                if (error) return { error };
+                return { data: data as Collections[] };
+            },
             providesTags: ['COLLECTION'],
         }),
         getCollectionById: build.query<Collections[], string[]>({
-            query: (collectionIds) => {
-                const params = collectionIds
-                    .map((id) => `id=${encodeURIComponent(id)}`)
-                    .join("&");
-                return `/collections?${params}`;
+            async queryFn(collectionIds) {
+                if (!collectionIds.length) return { data: [] };
+                const { data, error } = await supabase.from('collections').select('*').in('id', collectionIds);
+                if (error) return { error };
+                return { data: data as Collections[] };
             },
             providesTags: ['COLLECTION'],
         }),
         getCollection: build.query<Collections | null, string>({
-            query: (id) => `/collections?id=${id}`,
-            transformResponse: (response: Collections[]) => response[0] ?? null,
+            async queryFn(id) {
+                const { data, error } = await supabase.from('collections').select('*').eq('id', id).single();
+                if (error && error.code !== 'PGRST116') return { error };
+                return { data: data as Collections | null };
+            },
             providesTags: (_, __, id) => [{ type: 'COLLECTION', id }],
         }),
         getCollectionBySlug: build.query<Collections | null, string>({
-            query: (slug) => `/collections?slug=${slug}`,
-            transformResponse: (response: Collections[]) => response[0] ?? null,
+            async queryFn(slug) {
+                const { data, error } = await supabase.from('collections').select('*').eq('slug', slug).single();
+                if (error && error.code !== 'PGRST116') return { error };
+                return { data: data as Collections | null };
+            },
             providesTags: (_, __, slug) => [{ type: 'COLLECTION', id: slug }],
         }),
+
         // --- POTS ---
         getAllPots: build.query<PotOption[], void>({
-            query: () => "/potOptions",
+            async queryFn() {
+                const { data, error } = await supabase.from('pot_options').select('*');
+                if (error) return { error };
+                return { data: data as PotOption[] };
+            },
             providesTags: ['POT'],
         }),
 
         // --- SEARCH ---
         getSearch: build.query<SearchResult, string>({
-            async queryFn(search, _queryApi, _extraOptions, fetchWithBQ) {
+            async queryFn(search) {
                 const query = search.trim();
 
                 if (!query) {
@@ -128,38 +225,55 @@ export const PlantsApi = createApi({
                     };
                 }
 
+                const pattern = `%${query}%`;
+
                 const [
-                    plantsResult,
-                    accessoriesResult,
-                    categoriesResult,
-                    subCategoriesResult,
-                    collectionsResult,
+                    plantsRes,
+                    accessoriesRes,
+                    categoriesRes,
+                    subCategoriesRes,
+                    collectionsRes,
                 ] = await Promise.all([
-                    fetchWithBQ(`/plants?q=${encodeURIComponent(query)}`),
-                    fetchWithBQ(`/accessories?q=${encodeURIComponent(query)}`),
-                    fetchWithBQ(`/categories?q=${encodeURIComponent(query)}`),
-                    fetchWithBQ(`/subCategories?q=${encodeURIComponent(query)}`),
-                    fetchWithBQ(`/collections?q=${encodeURIComponent(query)}`),
+                    supabase
+                        .from('plants')
+                        .select('*')
+                        .or(`name.ilike.${pattern},slug.ilike.${pattern},description.ilike.${pattern},brand.ilike.${pattern},specifications.ilike.${pattern}`)
+                        .limit(4),
+
+                    supabase
+                        .from('accessories')
+                        .select('*')
+                        .or(`name.ilike.${pattern},slug.ilike.${pattern},description.ilike.${pattern},brand.ilike.${pattern}`)
+                        .limit(2),
+
+                    supabase
+                        .from('categories')
+                        .select('*')
+                        .or(`name.ilike.${pattern},slug.ilike.${pattern},description.ilike.${pattern}`)
+                        .limit(3),
+
+                    supabase
+                        .from('sub_categories')
+                        .select('*')
+                        .ilike('name', pattern)
+                        .limit(3),
+                    supabase
+                        .from('collections')
+                        .select('*')
+                        .or(`name.ilike.${pattern},slug.ilike.${pattern}`)
+                        .limit(3),
                 ]);
-
-                const firstError =
-                    plantsResult.error ||
-                    accessoriesResult.error ||
-                    categoriesResult.error ||
-                    subCategoriesResult.error ||
-                    collectionsResult.error;
-
-                if (firstError) {
-                    return { error: firstError };
-                }
 
                 return {
                     data: {
-                        plants: (plantsResult.data as Plant[] || []).slice(0, 4),
-                        accessories: (accessoriesResult.data as Accessory[] || []).slice(0, 2),
-                        categories: (categoriesResult.data as Category[] || []).slice(0, 3),
-                        subCategories: (subCategoriesResult.data as SubCategory[] || []).slice(0, 3),
-                        collections: (collectionsResult.data as Collections[] || []).slice(0, 3),
+                        plants: (plantsRes.data || []).map(mapPlant),
+                        accessories: (accessoriesRes.data || []).map(mapAccessory),
+                        categories: (categoriesRes.data || []) as Category[],
+                        subCategories: (subCategoriesRes.data || []).map(item => ({
+                            ...item,
+                            categoryId: item.category_id,
+                        })) as SubCategory[],
+                        collections: (collectionsRes.data || []) as Collections[],
                     },
                 };
             },

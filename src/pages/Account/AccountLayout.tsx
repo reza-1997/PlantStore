@@ -70,12 +70,12 @@ const AccountLayout = () => {
 
     // Account sidebar navigation items
     const menuItems = [
-        { text: t("account.menu.overview"), icon: <PersonOutlinedIcon />, path: `/${lang}/account/overview` },
-        { text: t("account.menu.addressBook"), icon: <HomeOutlinedIcon />, path: `/${lang}/account/addresses` },
-        { text: t("account.menu.myOrders"), icon: <ShoppingCartOutlinedIcon />, path: `/${lang}/account/orders` },
-        { text: t("account.menu.wishlist"), icon: <FavoriteBorderOutlinedIcon />, path: `/${lang}/account/wishlist` },
-        { text: t("account.menu.restockNotifications"), icon: <NotificationsNoneOutlinedIcon />, path: `/${lang}/account/notifications` },
-        { text: t("account.menu.privacy"), icon: <SecurityOutlinedIcon />, path: `/${lang}/account/privacy` },
+        { text: t("account.menu.overview"), icon: <PersonOutlinedIcon />, disable: false, path: `/${lang}/account/overview` },
+        { text: t("account.menu.addressBook"), icon: <HomeOutlinedIcon />, disable: true, path: `/${lang}/account/addresses` },
+        { text: t("account.menu.myOrders"), icon: <ShoppingCartOutlinedIcon />, disable: true, path: `/${lang}/account/orders` },
+        { text: t("account.menu.wishlist"), icon: <FavoriteBorderOutlinedIcon />, disable: false, path: `/${lang}/account/wishlist` },
+        { text: t("account.menu.restockNotifications"), icon: <NotificationsNoneOutlinedIcon />, disable: true, path: `/${lang}/account/notifications` },
+        { text: t("account.menu.privacy"), icon: <SecurityOutlinedIcon />, disable: true, path: `/${lang}/account/privacy` },
     ];
 
     return (
@@ -118,6 +118,7 @@ const AccountLayout = () => {
                                                         backgroundColor: "rgba(255, 255, 255, 0.1)",
                                                     },
                                                 }}
+                                                disabled={item.disable}
                                             >
                                                 <ListItemIcon sx={{ color: "#ffffff", minWidth: 36 }}>
                                                     {item.icon}

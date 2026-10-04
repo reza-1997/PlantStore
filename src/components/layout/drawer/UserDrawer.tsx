@@ -124,12 +124,12 @@ const UserDrawer = ({ open, onClose }: UserDrawerProps) => {
 
     // Account sidebar menu items
     const menuItems = [
-        { text: t("account.menu.overview"), icon: <PersonOutlinedIcon />, path: `/${lang}/account/overview` },
-        { text: t("account.menu.addressBook"), icon: <HomeOutlinedIcon />, path: `/${lang}/account/addresses` },
-        { text: t("account.menu.myOrders"), icon: <ShoppingCartOutlinedIcon />, path: `/${lang}/account/orders` },
-        { text: t("account.menu.wishlist"), icon: <FavoriteBorderOutlinedIcon />, path: `/${lang}/account/wishlist` },
-        { text: t("account.menu.restockNotifications"), icon: <NotificationsNoneOutlinedIcon />, path: `/${lang}/account/notifications` },
-        { text: t("account.menu.privacy"), icon: <SecurityOutlinedIcon />, path: `/${lang}/account/privacy` },
+        { text: t("account.menu.overview"), icon: <PersonOutlinedIcon />, disable: false, path: `/${lang}/account/overview` },
+        { text: t("account.menu.addressBook"), icon: <HomeOutlinedIcon />, disable: true, path: `/${lang}/account/addresses` },
+        { text: t("account.menu.myOrders"), icon: <ShoppingCartOutlinedIcon />, disable: true, path: `/${lang}/account/orders` },
+        { text: t("account.menu.wishlist"), icon: <FavoriteBorderOutlinedIcon />, disable: false, path: `/${lang}/account/wishlist` },
+        { text: t("account.menu.restockNotifications"), icon: <NotificationsNoneOutlinedIcon />, disable: true, path: `/${lang}/account/notifications` },
+        { text: t("account.menu.privacy"), icon: <SecurityOutlinedIcon />, disable: true, path: `/${lang}/account/privacy` },
     ];
 
     return (
@@ -222,6 +222,7 @@ const UserDrawer = ({ open, onClose }: UserDrawerProps) => {
                                         borderBottom: `1px solid ${theme.palette.divider}`,
                                         "&:hover": { backgroundColor: theme.palette.action.hover },
                                     }}
+                                    disabled={item.disable}
                                 >
                                     <ListItemIcon sx={{ minWidth: 40, color: theme.palette.text.primary }}>
                                         {item.icon}

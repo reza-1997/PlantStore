@@ -1,0 +1,316 @@
+{
+    "main": {
+        "appName": ""
+    },
+    "common": {
+        "errorLabel": "There was a problem loading the content 🍂...",
+        "currency": "Toman",
+        "detail": " Details:",
+        "price": "Price: ",
+        "TooltipPrice": "The base price includes the default pot (Black Plastic). If you select another model, the pot cost will be added to the final invoice.",
+        "potSize": "🪴 Pot Size:",
+        "addToCart": "Add to Cart",
+        "Non-existent": "Out of Stock",
+        "allProducts": " All Products 🪴",
+        "cart": "Shopping cart",
+        "loading": "Processing...",
+        "yes": "Yes",
+        "no": "No",
+        "customerService": "Customer service",
+        "hi": "Hi!"
+    },
+    "navbar": {
+        "title": "Plant Shop",
+        "searchPlaceholder": "Search for plants or accessories...",
+        "searchDrawerTitle": "Search Products"
+    },
+    "search": {
+        "notFoundSearch": "Nothing found, type again to start searching...",
+        "NothingFound": "Nothing found.",
+        "products": "Products",
+        "category": "Product categories",
+        "subCategory": "Product subCategories",
+        "collection": "Product collections",
+        "yourSearchResults": "Your search results",
+        "searchedFor": "Searched for"
+    },
+    "menuBar": {
+        "viewAll": " View all products in this category "
+    },
+    "accountMenu": {
+        "label": "Profile Settings",
+        "userDefaultName": "User",
+        "myOrders": "My Orders",
+        "myProfile": "My Profile",
+        "accountSettings": "Account Settings",
+        "logout": "Logout"
+    },
+    "filter": {
+        "label": "Filter / Category",
+        "resetFilter": "Reset Filters",
+        "notFound": "No products matched your selected filters. 🌵",
+        "categoryProducts": "Products category:",
+        "subCategoryProducts": "Subcategory products:",
+        "allProducts": "All Products"
+    },
+    "sort": {
+        "label": "Sort by",
+        "popular": "Most Popular",
+        "inStock": "In Stock",
+        "inexpensive": "Price: Low to High",
+        "expensive": "Price: High to Low",
+        "newest": "Newest"
+    },
+    "productCard": {},
+    "home": {
+        "collectionLabel": " Plants for Everyone ☘️",
+        "FeaturedProductsLabel": " Featured Offers 🌱"
+    },
+    "productDetail": {
+        "potType": "Pot Type 🪴: ",
+        "potColor": "Pot Color : ",
+        "errorPotColor": " Please select a pot type first.",
+        "errorPot": " Please select a pot.",
+        "FreePot": "(No extra charge)",
+        "currency": " Toman +) ",
+        "SuggestedProductsLabel": " Frequently Bought Together",
+        "MaxStockAlert": "You have selected the maximum available quantity for this item.",
+        "stock": "Greenhouse Stock Status:",
+        "ProductsRelatedLabel": " Related Products",
+        "addToCartShort": "Add"
+    },
+    "ProductSpecsAccordion": {
+        "titlePlant": "Details & Care",
+        "titleAccessory": "Product Details",
+        "plantSize": "Plant Size",
+        "potSize": "Pot Size",
+        "careLevel": "Care Level",
+        "light": "Light Need",
+        "watering": "Watering Need",
+        "height": "Plant Height",
+        "petFriendly": "Pet Friendly",
+        "petFriendlyYes": "Yes, safe for pets",
+        "petFriendlyNo": "No, keep away from pets",
+        "material": "Material",
+        "weight": "Weight"
+    },
+    "careLevel": {
+        "hard": "Hard / Sensitive",
+        "easy": "Easy / Low Maintenance",
+        "medium": "Medium"
+    },
+    "plantSize": {
+        "xs": "Extra Small (XS)",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "xl": "Extra Large (XL)"
+    },
+    "cart": {
+        "label": "This is your shopping cart",
+        "addedSuccessfully": "Added to cart successfully",
+        "quantityIncreased": "Item quantity updated in cart",
+        "emptyCart": "Your shopping cart is empty.",
+        "continueShopping": "Return to products page",
+        "totalItems": "Total number of goods",
+        "totalDiscount": "Your profit from this purchase",
+        "totalCart": "Shopping cart total",
+        "paymentDetails": "Payment details",
+        "totalAmount": "Total price of goods",
+        "checkout": "checkout",
+        "saveOrder": "I'm ready to order",
+        "potType": "Pot Type : ",
+        "potColor": "Pot Color : ",
+        "potPrice": "Pot Price : ",
+        "RecentlyViewed": "Recently viewed",
+        "SelectedPot": "Selected pot : ",
+        "backToCart": "Back to shopping cart",
+        "continueToPayment": "Continue to payment"
+    },
+    "notification": {
+        "addedSuccessfully": "Added to cart successfully",
+        "quantityIncreased": "Item quantity updated in cart",
+        "quantityDecreased": "The number of products in the shopping cart has decreased!",
+        "MaxStockAlert": "You have selected the maximum available quantity for this item.",
+        "removeFromCart": "The desired product was successfully removed from the shopping cart!!"
+    },
+    "footer": {
+        "shop": "Shop",
+        "allPlants": "All houseplants",
+        "babyPlants": "All Baby houseplants",
+        "myAccount": "My account",
+        "login": "Login",
+        "customerService": "Customer service",
+        "faq": "Frequently asked questions",
+        "contact": "Contact",
+        "payments": "Payments",
+        "shipping": "Transport and delivery",
+        "guarantee": "Guarantee",
+        "returns": "Return policy",
+        "about": "About",
+        "aboutUs": "About us",
+        "sustainability": "Sustainability",
+        "collaborations": "Collaborations",
+        "jobs": "Job opportunities",
+        "newsletterTitle": "Be part of our community!",
+        "newsletterSub": "Be part of our community by subscribing to our newsletters!",
+        "emailPlaceholder": "Your email address",
+        "subscribeBtn": "Surprise me!",
+        "terms": "Terms & conditions",
+        "privacy": "Privacy",
+        "cookies": "Cookies",
+        "accountOverview": "Account overview",
+        "myOrders": "My orders",
+        "logout": "Logout"
+    },
+    "auth": {
+        "returningCustomer": "Returning customer?",
+        "email": "Email / Mobile number",
+        "password": "Password",
+        "login": "Login",
+        "createNewAccount": "Create an account",
+        "benefitsTitle": "Become a member and receive the following benefits:",
+        "benefit1": "Track orders and order status easily",
+        "benefit2": "Save and manage your favorite plants & products",
+        "benefit3": "Get notified about special offers and sales",
+        "register": "Create an account",
+        "guestTitle": "Rather order as guest?",
+        "guestCheckout": "Order as guest"
+    },
+    "checkout": {
+        "enterDetails": "Enter your details"
+    },
+    "register": {
+        "title": "Create Account",
+        "firstName": "First name *",
+        "lastName": "Last name *",
+        "email": "Email *",
+        "password": "Password *",
+        "confirmPassword": "Confirm password *",
+        "birthdate": "Birthdate",
+        "birthdateHint": "Enter your date of birth to receive a present on your birthday!",
+        "subscribeNewsletter": "Subscribe to our newsletter",
+        "acceptTermsPrefix": "I've read and accept the",
+        "termsOfService": "terms of service",
+        "and": "and",
+        "privacyPolicy": "privacy policy",
+        "submitButton": "Sign up",
+        "alreadyHaveAccount": "Have an account?",
+        "loginHere": "Login here!",
+        "whyAccountTitle": "Why an account?",
+        "whyAccountSubtitle": "Become a member and receive the following benefits:",
+        "benefit1": "Make your own wish list by favouriting plants & products",
+        "benefit2": "Check your (previous) orders and order status",
+        "benefit3": "View and manage your restock notifications",
+        "termsRequired": "Please accept the terms and conditions.",
+        "passwordMismatch": "Passwords do not match.",
+        "success": "Account created successfully.",
+        "requiredField": "Please fill this field.",
+        "invalidEmail": "Please enter a valid email address.",
+        "minPassword": "Please provide at least 8 characters.",
+        "acceptTermsRequired": "You must accept the terms of service."
+    },
+    "login": {
+        "title": "Login",
+        "email": "Email",
+        "password": "Password",
+        "forgotPassword": "Forgot your password?",
+        "submitButton": "Login",
+        "newCustomerTitle": "New customer",
+        "newCustomerSubtitle": "Become a member and receive the following benefits:",
+        "benefit1": "Make your own wish list by favouriting plants & products",
+        "benefit2": "Check your (previous) orders and order status",
+        "benefit3": "View and manage your restock notifications",
+        "createAccountButton": "Create Account",
+        "requiredField": "Please fill this field.",
+        "invalidEmail": "Please enter a valid email address.",
+        "minPassword": "Please provide at least 8 characters.",
+        "success": "Logged in successfully.",
+        "invalidCredentials": "Invalid email or password.",
+        "emailNotConfirmed": "Email not confirmed. Please check your inbox.",
+        "noAccount": "No account yet?",
+        "createOneHere": "Create one here!"
+    },
+    "registerSuccessModal": {
+        "greeting": "Hi {{name}}!",
+        "defaultName": "there",
+        "message": "Thank you for successfully creating an account. To access your account, you must first log in.",
+        "loginButton": "Login"
+    },
+    "account": {
+        "title": "My account",
+        "subtitle": "This is your account overview. Here you can update your user details, take a look at your latest orders, wishlist and recently viewed items.",
+        "greeting": "Hi {{name}}!",
+        "menu": {
+            "overview": "Account overview",
+            "addressBook": "Address book",
+            "myOrders": "My orders",
+            "wishlist": "Wishlist",
+            "restockNotifications": "Restock notifications",
+            "privacy": "Data and Privacy",
+            "logout": "Logout"
+        },
+        "basics": {
+            "title": "Basics",
+            "name": "Name",
+            "email": "Email",
+            "birthdate": "Birthdate",
+            "newsletter": "Subscribed to our newsletter",
+            "updateDetails": "Update personal details"
+        },
+        "orders": {
+            "title": "My latest order",
+            "empty": "You have not placed an order yet"
+        },
+        "wishlist": {
+            "title": "A selection from my wishlist",
+            "empty": "Your wishlist is still empty"
+        },
+        "logoutDialog": {
+            "title": "Logout Confirmation",
+            "message": "Are you sure you want to log out of your account?",
+            "cancel": "Cancel",
+            "confirm": "Logout"
+        },
+        "logoutSuccess": "Successfully logged out of your account."
+    },
+    "errors": {
+        "networkOffline": "Please check your internet connection.",
+        "networkError": "Server connection failed. Please check your network.",
+        "default": "An error occurred. Please try again."
+    },
+    "wishlist": {
+        "loginRequired": "Please log in to add items to your wishlist.",
+        "addedSuccess": "Product added to your wishlist.",
+        "removedSuccess": "Product removed from your wishlist.",
+        "loginRequiredModal": "Please sign in to be able to add products to your wishlist.",
+        "title": "My Wishlist",
+        "subtitle": "Welcome to your personal jungle oasis! Browse your wishlist and let your green thumb run wild as you curate the ultimate indoor garden.",
+        "empty": "Your wishlist is currently empty.",
+        "showingResults": "Showing <start/> - <end/> of <total/> results"
+    },
+    "plantFinder": {
+        "tagline": "FIND YOUR PERFECT PLANT",
+        "title": "What kind of plant parent are you?",
+        "subtitle": "Tell us about your space and we'll match you with plants that will thrive.",
+        "browseAll": "Or browse all plants",
+        "items": {
+            "lowLight": {
+                "title": "Low Light",
+                "subtitle": "Thrives in shady spots"
+            },
+            "petFriendly": {
+                "title": "Pet-Friendly",
+                "subtitle": "Safe for furry friends"
+            },
+            "statement": {
+                "title": "Statement Plants",
+                "subtitle": "Bold and dramatic"
+            },
+            "easyCare": {
+                "title": "Easy Care",
+                "subtitle": "Hard to kill"
+            }
+        }
+    }
+}

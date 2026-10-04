@@ -1,0 +1,2671 @@
+{
+    "plants": [
+        {
+            "id": "p1",
+            "name": {
+                "fa": "نهال لیمو ترش مینیاتوری",
+                "en": "Miniature Lemon Tree Sapling"
+            },
+            "slug": "mini-lemon-tree",
+            "price": 850000,
+            "discountPrice": 720000,
+            "categoryId": "c2",
+            "subCategoryId": "s5",
+            "collectionIds": [
+                "col1",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "lemon1.jpg",
+                "lemon2.jpg",
+                "lemon3.png"
+            ],
+            "rating": 4.8,
+            "inStock": true,
+            "stock": 12,
+            "sold": 185,
+            "isFeatured": true,
+            "tags": [
+                "لیمو",
+                "درختچه",
+                "مرکبات",
+                "میوه"
+            ],
+            "careLevel": "medium",
+            "plantSize": "medium",
+            "lightLevel": "full-sun",
+            "specifications": {
+                "light": {
+                    "fa": "نور مستقیم و زیاد",
+                    "en": "Bright direct sunlight"
+                },
+                "watering": {
+                    "fa": "هنگام خشک شدن خاک",
+                    "en": "When the soil dries out"
+                },
+                "height": {
+                    "fa": "۵۰ سانتی‌متر",
+                    "en": "50 cm"
+                },
+                "potSize": 16
+            },
+            "desc": {
+                "fa": "درختچه لیمو ترش آپارتمانی شاداب با برگ‌های معطر، گزینه‌ای لوکس برای زنده کردن فضای آشپزخانه.",
+                "en": "Vibrant indoor miniature lemon shrub with aromatic leaves, a luxury choice to brighten up kitchen spaces."
+            }
+        },
+        {
+            "id": "p2",
+            "name": {
+                "fa": "مجموعه بوته توت‌فرنگی خانگی",
+                "en": "Home Strawberry Bush Set"
+            },
+            "slug": "home-strawberry-bush",
+            "price": 320000,
+            "discountPrice": null,
+            "categoryId": "c3",
+            "subCategoryId": "s6",
+            "collectionIds": [
+                "col2",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "strawberry.jpg",
+                "strawberry2.jpg"
+            ],
+            "rating": 4.5,
+            "inStock": true,
+            "stock": 25,
+            "sold": 94,
+            "isFeatured": true,
+            "tags": [
+                "توت فرنگی",
+                "بالکن",
+                "میوه",
+                "فصلی"
+            ],
+            "careLevel": "medium",
+            "plantSize": "small",
+            "lightLevel": "full-sun",
+            "specifications": {
+                "light": {
+                    "fa": "نور مستقیم آفتاب",
+                    "en": "Direct sunlight"
+                },
+                "watering": {
+                    "fa": "روزی یک‌بار در تابستان",
+                    "en": "Once daily in summer"
+                },
+                "height": {
+                    "fa": "۲۵ سانتی‌متر",
+                    "en": "25 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "بوته‌های شاداب توت‌فرنگی اصلاح‌شده، مناسب برای پشت پنجره‌های نورگیر، تراس و بالکن.",
+                "en": "Lush cultivated strawberry bushes, ideal for sunny windowsills, balconies, and terraces."
+            }
+        },
+        {
+            "id": "p3",
+            "name": {
+                "fa": "ارکیده فالانوپسیس سفید پرمیوم",
+                "en": "Premium White Phalaenopsis Orchid"
+            },
+            "slug": "premium-white-orchid",
+            "price": 1450000,
+            "discountPrice": null,
+            "categoryId": "c5",
+            "subCategoryId": "s9",
+            "collectionIds": [
+                "col5",
+                "col3"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "orchid.jpg",
+                "orchid2.jpg",
+                "orchid.jpg",
+                "orchid2.jpg",
+                "orchid.jpg",
+                "orchid2.jpg"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 5,
+            "sold": 62,
+            "isFeatured": true,
+            "tags": [
+                "ارکیده",
+                "سفید",
+                "لوکس",
+                "گلدار"
+            ],
+            "careLevel": "hard",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور فیلتر شده یا غیرمستقیم",
+                    "en": "Filtered or indirect light"
+                },
+                "watering": {
+                    "fa": "هر ۷ روز (جزئی)",
+                    "en": "Every 7 days (lightly)"
+                },
+                "height": {
+                    "fa": "۶۵ سانتی‌متر",
+                    "en": "65 cm"
+                },
+                "potSize": 14
+            },
+            "desc": {
+                "fa": "لوکس‌ترین نوع ارکیده با گلبرگ‌های مخملی متقارن و ماندگاری بسیار بالا در گلدان‌های سرامیکی سفید.",
+                "en": "Top-tier orchid featuring symmetrical velvety petals with exceptional longevity, potted in white ceramic."
+            }
+        },
+        {
+            "id": "p4",
+            "name": {
+                "fa": "پتوس مینیاتوری خاص (ابلق)",
+                "en": "Special Variegated Mini Pothos"
+            },
+            "slug": "variegated-pothos-mini",
+            "price": 280000,
+            "discountPrice": 240000,
+            "categoryId": "c1",
+            "subCategoryId": "s2",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "variegated-pothos.jpg",
+                "Marble Queen.jpg"
+            ],
+            "rating": 4.6,
+            "inStock": true,
+            "stock": 40,
+            "sold": 312,
+            "isFeatured": false,
+            "tags": [
+                "پتوس",
+                "ابلق",
+                "مقاوم",
+                "رونده"
+            ],
+            "careLevel": "easy",
+            "plantSize": "small",
+            "lightLevel": "low-light",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط تا کم",
+                    "en": "Medium to low light"
+                },
+                "watering": {
+                    "fa": "هر هفته یک‌بار",
+                    "en": "Once a week"
+                },
+                "height": {
+                    "fa": "۳۰ سانتی‌متر",
+                    "en": "30 cm"
+                },
+                "potSize": 10
+            },
+            "desc": {
+                "fa": "گیاه رونده با رگه‌های طلایی و مقاومت بالا؛ شرایط نگهداری فوق‌العاده آسان برای محیط‌های کاری.",
+                "en": "Trailing vine with golden variegation and high resilience; effortless care perfect for office environments."
+            }
+        },
+        {
+            "id": "p7",
+            "name": {
+                "fa": "زاموفیلیا بلک غول‌پیکر",
+                "en": "Giant Black ZZ Plant"
+            },
+            "slug": "zz-black-large",
+            "price": 1850000,
+            "discountPrice": 1690000,
+            "categoryId": "c2",
+            "subCategoryId": "s3",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col6",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "zz-black-large.jpg",
+                "zz-black-large.jpeg"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 6,
+            "sold": 152,
+            "isFeatured": true,
+            "tags": [
+                "زاموفیلیا",
+                "بلک",
+                "لوکس",
+                "مقاوم"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "low-light",
+            "specifications": {
+                "light": {
+                    "fa": "نور غیر مستقیم و کم",
+                    "en": "Low indirect light"
+                },
+                "watering": {
+                    "fa": "هر ۱۰ الی ۱۲ روز",
+                    "en": "Every 10 to 12 days"
+                },
+                "height": {
+                    "fa": "۶۰ سانتی‌متر",
+                    "en": "60 cm"
+                },
+                "potSize": 14
+            },
+            "desc": {
+                "fa": "یکی از کمیاب‌ترین و لوکس‌ترین انواع زاموفیلیا با برگ‌های ارغوانی بسیار تیره نزدیک به مشکی.",
+                "en": "One of the rarest and most elegant ZZ plant varieties with deep purple-black foliage."
+            }
+        },
+        {
+            "id": "p8",
+            "name": {
+                "fa": "سانسوریا شمشیری ابلق مادری",
+                "en": "Mother Variegated Snake Plant"
+            },
+            "slug": "sansevieria-ablag-mother",
+            "price": 650000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s3",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "sansevieria-ablag.jpg",
+                "File 14.jpg"
+            ],
+            "rating": 4.4,
+            "inStock": true,
+            "stock": 18,
+            "sold": 210,
+            "isFeatured": false,
+            "tags": [
+                "سانسوریا",
+                "ابلق",
+                "تصفیه هوا",
+                "مقاوم"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "low-light",
+            "specifications": {
+                "light": {
+                    "fa": "سایه‌پسند و کم‌نور",
+                    "en": "Shade-tolerant and low light"
+                },
+                "watering": {
+                    "fa": "هر دو هفته یک‌بار",
+                    "en": "Once every two weeks"
+                },
+                "height": {
+                    "fa": "۸۰ سانتی‌متر",
+                    "en": "80 cm"
+                },
+                "potSize": 16
+            },
+            "desc": {
+                "fa": "گیاه فوق‌العاده مقاوم و تصفیه‌کننده قوی هوای محیط، مناسب برای اتاق خواب و فضاهای کم‌نور.",
+                "en": "Extremely hardy plant and powerful air purifier, perfect for bedrooms and low-light spaces."
+            }
+        },
+        {
+            "id": "p9",
+            "name": {
+                "fa": "پتوس حصیری (Monstera Adansonii)",
+                "en": "Monstera Adansonii (Swiss Cheese Plant)"
+            },
+            "slug": "monstera-adansonii-pothos",
+            "price": 340000,
+            "discountPrice": 290000,
+            "categoryId": "c1",
+            "subCategoryId": "s2",
+            "collectionIds": [
+                "col1",
+                "col3",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "adansonii.jpg",
+                "monstera-deliciosa-medium.jpg"
+            ],
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 22,
+            "sold": 167,
+            "isFeatured": true,
+            "tags": [
+                "پتوس",
+                "حصیری",
+                "استوایی",
+                "خاص"
+            ],
+            "careLevel": "easy",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط غیرمستقیم",
+                    "en": "Medium indirect light"
+                },
+                "watering": {
+                    "fa": "هر 6 روز یک‌بار",
+                    "en": "Every 6 days"
+                },
+                "height": {
+                    "fa": "35 سانتی‌متر",
+                    "en": "35 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "با برگ‌های سوراخ‌دار مینیاتوری جذاب که ظاهری استوایی و مدرن به دکوراسیون شما می‌بخشد.",
+                "en": "Features charming perforated miniature leaves that bring a modern tropical vibe to interior decor."
+            }
+        },
+        {
+            "id": "p10",
+            "name": {
+                "fa": "کاکتوس صخره‌ای کلکسیونی بزرگ",
+                "en": "Large Collector Rock Cactus"
+            },
+            "slug": "large-rock-cactus",
+            "price": 1200000,
+            "discountPrice": null,
+            "categoryId": "c3",
+            "subCategoryId": "s7",
+            "collectionIds": [
+                "col2"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "rock-cactus.jpg",
+                "cactus.jpg"
+            ],
+            "rating": 4.8,
+            "inStock": true,
+            "stock": 4,
+            "sold": 23,
+            "isFeatured": false,
+            "tags": [
+                "کاکتوس",
+                "صخره ای",
+                "کلکسیونی",
+                "بیرونی"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "full-sun",
+            "specifications": {
+                "light": {
+                    "fa": "آفتاب مستقیم کامل",
+                    "en": "Full direct sun"
+                },
+                "watering": {
+                    "fa": "ماهی یک‌بار در زمستان",
+                    "en": "Once a month in winter"
+                },
+                "height": {
+                    "fa": "۷۰ سانتی‌متر",
+                    "en": "70 cm"
+                },
+                "potSize": 22
+            },
+            "desc": {
+                "fa": "کاکتوس چندساله صخره‌ای با بافتی متمایز و مجسمه‌گون، ابلق و ایده‌آل برای دیزاین تراس‌ها.",
+                "en": "Mature sculptural rock cactus with distinctive variegated texture, ideal for terrace styling."
+            }
+        },
+        {
+            "id": "p11",
+            "name": {
+                "fa": "اسپاتی فیلوم (تصفیه‌کننده)",
+                "en": "Spathiphyllum (Peace Lily)"
+            },
+            "slug": "spathiphyllum-peace-lily",
+            "price": 490000,
+            "discountPrice": 420000,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col3",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "spathiphyllum.jpg",
+                "cactus.jpg"
+            ],
+            "rating": 4.6,
+            "inStock": true,
+            "stock": 14,
+            "sold": 89,
+            "isFeatured": false,
+            "tags": [
+                "اسپاتی",
+                "تصفیه هوا",
+                "شکوفه",
+                "سفید"
+            ],
+            "careLevel": "medium",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور کم تا متوسط غیرمستقیم",
+                    "en": "Low to medium indirect light"
+                },
+                "watering": {
+                    "fa": "همیشه خاک کمی مرطوب باشد",
+                    "en": "Keep soil consistently moist"
+                },
+                "height": {
+                    "fa": "۴۵ سانتی‌متر",
+                    "en": "45 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "نماد صلح و پاکیزگی؛ این گیاه به شدت گازهای سمی محیط خانه را جذب و تصفیه می‌کند.",
+                "en": "A symbol of peace and purity; highly effective at absorbing and filtering indoor toxins."
+            }
+        },
+        {
+            "id": "p12",
+            "name": {
+                "fa": "ارکیده دندروبیوم بنفش تیره",
+                "en": "Dark Purple Dendrobium Orchid"
+            },
+            "slug": "dark-purple-dendrobium",
+            "price": 1600000,
+            "discountPrice": null,
+            "categoryId": "c5",
+            "subCategoryId": "s10",
+            "collectionIds": [
+                "col5",
+                "col3"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "dark-purple-dendrobium.jpg",
+                "File 9.jpg"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 3,
+            "sold": 41,
+            "isFeatured": false,
+            "tags": [
+                "ارکیده",
+                "بنفش",
+                "دندروبیوم",
+                "کمیاب"
+            ],
+            "careLevel": "hard",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور روشن فیلتر شده",
+                    "en": "Bright filtered light"
+                },
+                "watering": {
+                    "fa": "هر ۱۰ روز یک‌بار",
+                    "en": "Once every 10 days"
+                },
+                "height": {
+                    "fa": "۵۵ سانتی‌متر",
+                    "en": "55 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "ارکیده خاص دندروبیوم مینیاتوری با خوشه‌های پر از گل و طول عمر گلدهی طولانی‌مدت.",
+                "en": "Exquisite miniature Dendrobium orchid featuring dense flower clusters with long-lasting blooms."
+            }
+        },
+        {
+            "id": "p16",
+            "name": {
+                "fa": "پک اقتصادی ۳ عددی ساکولنت مینی",
+                "en": "Mini Succulent Economy 3-Pack"
+            },
+            "slug": "mini-succulent-3pack",
+            "price": 190000,
+            "discountPrice": 150000,
+            "categoryId": "c7",
+            "subCategoryId": "s18",
+            "collectionIds": [
+                "col1",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "mini-succulent.jpg",
+                "adansonii.jpg"
+            ],
+            "rating": 4.2,
+            "inStock": true,
+            "stock": 35,
+            "sold": 289,
+            "isFeatured": false,
+            "tags": [
+                "ساکولنت",
+                "پک",
+                "اقتصادی",
+                "حراج"
+            ],
+            "careLevel": "easy",
+            "plantSize": "small",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور مستقیم یا زیاد غیرمستقیم",
+                    "en": "Direct or high indirect light"
+                },
+                "watering": {
+                    "fa": "هر دو هفته یک‌بار",
+                    "en": "Once every two weeks"
+                },
+                "height": {
+                    "fa": "۱۰ سانتی‌متر",
+                    "en": "10 cm"
+                },
+                "potSize": 6
+            },
+            "desc": {
+                "fa": "مجموعه سه عددی از ساکولنت‌های مقاوم و فشرده، گزینه‌ای عالی برای هدیه‌های شرکتی و میز کار.",
+                "en": "Set of three compact, hardy succulents; a great choice for corporate gifts and desk decor."
+            }
+        },
+        {
+            "id": "p18",
+            "name": {
+                "fa": "مونسترا برگ انجیری مدیوم",
+                "en": "Medium Monstera Deliciosa"
+            },
+            "slug": "monstera-deliciosa-medium",
+            "price": 790000,
+            "discountPrice": 650000,
+            "categoryId": "c1",
+            "subCategoryId": "s1",
+            "collectionIds": [
+                "col1",
+                "col6"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "monstera-deliciosa-medium.jpg",
+                "monestra.jpeg"
+            ],
+            "rating": 4.8,
+            "inStock": false,
+            "stock": 0,
+            "sold": 143,
+            "isFeatured": true,
+            "tags": [
+                "برگ انجیری",
+                "مونسترا",
+                "لوکس",
+                "جدید"
+            ],
+            "careLevel": "medium",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط غیرمستقیم و فیلترشده",
+                    "en": "Medium filtered indirect light"
+                },
+                "watering": {
+                    "fa": "هر ۷ الی ۹ روز یک‌بار",
+                    "en": "Every 7 to 9 days"
+                },
+                "height": {
+                    "fa": "۵۵ سانتی‌متر",
+                    "en": "55 cm"
+                },
+                "potSize": 14
+            },
+            "desc": {
+                "fa": "برگ انجیری با چاک‌های عمیق و پهن، نماد دیزاین‌های ژورنالی و دکوراسیون‌های مدرن اسکاندیناوی.",
+                "en": "Monstera with deep, broad leaf splits; a staple statement piece for Scandinavian interior design."
+            }
+        },
+        {
+            "id": "p19",
+            "name": {
+                "fa": "پتوس ساتین (نقره‌ای خاص)",
+                "en": "Satin Pothos (Scindapsus Pictus)"
+            },
+            "slug": "satin-pothos-scindapsus",
+            "price": 390000,
+            "discountPrice": 340000,
+            "categoryId": "c2",
+            "subCategoryId": "s2",
+            "collectionIds": [
+                "col1",
+                "col3",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "satin-pothos.jpg",
+                "monestra.jpeg"
+            ],
+            "rating": 4.8,
+            "inStock": true,
+            "stock": 15,
+            "sold": 88,
+            "isFeatured": true,
+            "tags": [
+                "پتوس",
+                "ساتین",
+                "نقره ای",
+                "خاص",
+                "رونده"
+            ],
+            "careLevel": "easy",
+            "plantSize": "small",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط غیرمستقیم (فیلتر شده)",
+                    "en": "Medium filtered indirect light"
+                },
+                "watering": {
+                    "fa": "بعد از خشک شدن نصف عمق خاک",
+                    "en": "When top half of soil dries out"
+                },
+                "height": {
+                    "fa": "۳۰ سانتی‌متر",
+                    "en": "30 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "پتوس متمایز با برگ‌های مخملی ضخیم و لکه‌های نقره‌ای براق که در نور می‌درخشند؛ گزینه‌ای عالی برای دکورهای لوکس.",
+                "en": "Distinctive pothos with thick velvety leaves and shimmering silver flecks; an elegant addition to upscale interiors."
+            }
+        },
+        {
+            "id": "p20",
+            "name": {
+                "fa": "دیفن باخیا کمل (Amoena)",
+                "en": "Dieffenbachia Camel (Amoena)"
+            },
+            "slug": "dieffenbachia-camel",
+            "price": 680000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col6"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "dieffenbachia.jpg",
+                "monestra.jpeg"
+            ],
+            "rating": 4.5,
+            "inStock": true,
+            "stock": 9,
+            "sold": 42,
+            "isFeatured": false,
+            "tags": [
+                "دیفن باخیا",
+                "کمل",
+                "برگ پهن",
+                "مجلسی"
+            ],
+            "careLevel": "medium",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط و غیرمستقیم",
+                    "en": "Medium indirect light"
+                },
+                "watering": {
+                    "fa": "هر ۷ الی ۱۰ روز (خشکی خاک)",
+                    "en": "Every 7 to 10 days (when dry)"
+                },
+                "height": {
+                    "fa": "۷۰ سانتی‌متر",
+                    "en": "70 cm"
+                },
+                "potSize": 19
+            },
+            "desc": {
+                "fa": "گیاهی با برگ‌های پهن ژورنالی و نقش‌و‌نگار کرم‌رنگ منحصربه‌فرد که به سالن یا اتاق کار ابهت می‌بخشد.",
+                "en": "Broad-leaved plant with unique creamy patterns that adds grandeur to living rooms and executive offices."
+            }
+        },
+        {
+            "id": "p21",
+            "name": {
+                "fa": "فیکوس الاستیکا سبز کلاسیک",
+                "en": "Classic Green Ficus Elastica"
+            },
+            "slug": "ficus-elastica-green",
+            "price": 540000,
+            "discountPrice": 480000,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "ficus-elastica.jpg",
+                "ficus-elastica-black.jpg"
+            ],
+            "rating": 4.6,
+            "inStock": true,
+            "stock": 20,
+            "sold": 110,
+            "isFeatured": false,
+            "tags": [
+                "فیکوس",
+                "الاستیکا",
+                "سبز",
+                "مقاوم",
+                "درختچه"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور زیاد غیرمستقیم پشت پنجره",
+                    "en": "Bright indirect light near windows"
+                },
+                "watering": {
+                    "fa": "تنها پس از خشک شدن کامل خاک",
+                    "en": "Only after soil completely dries"
+                },
+                "height": {
+                    "fa": "۸۰ سانتی‌متر",
+                    "en": "80 cm"
+                },
+                "potSize": 16
+            },
+            "desc": {
+                "fa": "درختچه اصیل و مقاوم آپارتمانی با برگ‌های چرمی، پهن و براق که دکوراسیون‌های اسکاندیناوی را کامل می‌کند.",
+                "en": "Classic, resilient indoor tree with glossy leathery foliage that perfectly complements modern minimalist settings."
+            }
+        },
+        {
+            "id": "p22",
+            "name": {
+                "fa": "فیکوس بلک پرمیوم (ربر)",
+                "en": "Premium Black Rubber Ficus"
+            },
+            "slug": "ficus-elastica-black",
+            "price": 720000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col6"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "ficus-elastica-black.jpg",
+                "ficus-elastica.jpg"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 14,
+            "sold": 165,
+            "isFeatured": true,
+            "tags": [
+                "فیکوس",
+                "بلک",
+                "مشکی",
+                "لوکس",
+                "درختچه"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور زیاد اما فیلتر شده",
+                    "en": "Bright filtered light"
+                },
+                "watering": {
+                    "fa": "بعد از خشک شدن ۲ الی ۳ سانت از سطح خاک",
+                    "en": "When top 2-3 cm of soil is dry"
+                },
+                "height": {
+                    "fa": "۹۰ سانتی‌متر",
+                    "en": "90 cm"
+                },
+                "potSize": 16
+            },
+            "desc": {
+                "fa": "یکی از خاص‌ترین انواع فیکوس با برگ‌های چرمی بسیار تیره رنگ و متمایل به مشکی که تضاد رنگی فوق‌العاده‌ای ایجاد می‌کند.",
+                "en": "Striking ficus cultivar with near-black leathery leaves creating a dramatic visual contrast."
+            }
+        },
+        {
+            "id": "p23",
+            "name": {
+                "fa": "باباآدم غول‌پیکر (آلوکازیا)",
+                "en": "Giant Alocasia Amazonica"
+            },
+            "slug": "alocasia-amazonica-large",
+            "price": 1250000,
+            "discountPrice": 1100000,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col6"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "alocasia-amazonica.jpg",
+                "paradis.jpg"
+            ],
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 5,
+            "sold": 34,
+            "isFeatured": true,
+            "tags": [
+                "بابا آدم",
+                "آلوکازیا",
+                "برگ پهن",
+                "استوایی"
+            ],
+            "careLevel": "medium",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور کامل اما غیرمستقیم و رطوبت بالا",
+                    "en": "Bright indirect light with high humidity"
+                },
+                "watering": {
+                    "fa": "خاک همیشه کمی مرطوب (نه غرقاب) باشد",
+                    "en": "Keep soil slightly moist (not soggy)"
+                },
+                "height": {
+                    "fa": "۱۰۰ سانتی‌متر",
+                    "en": "100 cm"
+                },
+                "potSize": 22
+            },
+            "desc": {
+                "fa": "با برگ‌های بزرگ گوش‌فیلی و رگبرگ‌های برجسته، این گیاه یک بیانیه قدرتمند در معماری و دکوراسیون داخلی است.",
+                "en": "Featuring massive elephant-ear leaves with bold veining, making a bold statement in architectural design."
+            }
+        },
+        {
+            "id": "p24",
+            "name": {
+                "fa": "آگلونما سوپر وایت (برفی)",
+                "en": "Aglaonema Super White"
+            },
+            "slug": "aglaonema-super-white",
+            "price": 460000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "aglaonema-super-white.jpg",
+                "aglaonema-super-white2.jpg"
+            ],
+            "rating": 4.6,
+            "inStock": true,
+            "stock": 22,
+            "sold": 95,
+            "isFeatured": false,
+            "tags": [
+                "آگلونما",
+                "سفید",
+                "سوپر وایت",
+                "مقاوم",
+                "کم نور"
+            ],
+            "careLevel": "easy",
+            "plantSize": "medium",
+            "lightLevel": "low-light",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط تا کم (سایه‌دوست)",
+                    "en": "Medium to low light (shade tolerant)"
+                },
+                "watering": {
+                    "fa": "هنگام خشک شدن کامل خاک سطحی",
+                    "en": "When topsoil completely dries"
+                },
+                "height": {
+                    "fa": "۴۰ سانتی‌متر",
+                    "en": "40 cm"
+                },
+                "potSize": 14
+            },
+            "desc": {
+                "fa": "گیاهی فوق‌العاده سازگار با محیط‌های کم‌نور آپارتمانی که برگ‌های تقریباً سفید و ساقه روشن عاجی دارد.",
+                "en": "Highly adaptable indoor plant with vibrant ivory stems and almost entirely white foliage."
+            }
+        },
+        {
+            "id": "p25",
+            "name": {
+                "fa": "نخل اریکا پرپشت لوکس",
+                "en": "Premium Bushy Areca Palm"
+            },
+            "slug": "areca-palm-premium",
+            "price": 980000,
+            "discountPrice": 850000,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col6"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "areca-palm.jpg",
+                "File 8.jpeg"
+            ],
+            "rating": 4.4,
+            "inStock": true,
+            "stock": 8,
+            "sold": 72,
+            "isFeatured": true,
+            "tags": [
+                "نخل",
+                "اریکا",
+                "تصفیه هوا",
+                "بزرگ",
+                "استوایی"
+            ],
+            "careLevel": "medium",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور زیاد ولی فیلتر شده پنجره جنوبی",
+                    "en": "Bright filtered southern window light"
+                },
+                "watering": {
+                    "fa": "آبیاری منظم به محض خشک شدن سطح خاک",
+                    "en": "Regular watering once topsoil dries"
+                },
+                "height": {
+                    "fa": "۱۲۰ سانتی‌متر",
+                    "en": "120 cm"
+                },
+                "potSize": 24
+            },
+            "desc": {
+                "fa": "یکی از برترین گیاهان تصفیه‌کننده هوا و تولیدکننده اکسیژن با برگ‌های پر مانند متراکم که حس تازگی جزایر استوایی را تداعی می‌کند.",
+                "en": "Top air-purifying and oxygenating palm with feathery dense fronds that invoke a fresh tropical ambiance."
+            }
+        },
+        {
+            "id": "p26",
+            "name": {
+                "fa": "پتوس مرمری (Marble Queen)",
+                "en": "Marble Queen Pothos"
+            },
+            "slug": "marble-queen-pothos",
+            "price": 310000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s2",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Marble Queen.jpg",
+                "satin-pothos.jpg"
+            ],
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 18,
+            "sold": 140,
+            "isFeatured": false,
+            "tags": [
+                "پتوس",
+                "مرمری",
+                "ابلق سفید",
+                "مقاوم"
+            ],
+            "careLevel": "easy",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور روشن غیرمستقیم برای حفظ ابلقی",
+                    "en": "Bright indirect light to maintain variegation"
+                },
+                "watering": {
+                    "fa": "بعد از خشک شدن خاک سطحی",
+                    "en": "When topsoil dries out"
+                },
+                "height": {
+                    "fa": "۳۵ سانتی‌متر",
+                    "en": "35 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "واریته‌ای بسیار محبوب از پتوس با رگه‌های سفید و کرم متراکم شبیه سنگ مرمر روی برگ‌ها.",
+                "en": "Popular pothos cultivar displaying dense marble-like white and cream marbling across its leaves."
+            }
+        },
+        {
+            "id": "p27",
+            "name": {
+                "fa": "سینگونیوم صورتی لوکس (Neon Robusta)",
+                "en": "Luxury Pink Syngonium (Neon Robusta)"
+            },
+            "slug": "pink-syngonium-neon",
+            "price": 420000,
+            "discountPrice": 370000,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col3"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "pink-syngonium.jpg",
+                "pink-syngonium2.jpg"
+            ],
+            "rating": 4.6,
+            "inStock": true,
+            "stock": 11,
+            "sold": 65,
+            "isFeatured": true,
+            "tags": [
+                "سینگونیوم",
+                "صورتی",
+                "رنگی",
+                "مدرن"
+            ],
+            "careLevel": "easy",
+            "plantSize": "small",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور متوسط تا زیاد فیلتر شده",
+                    "en": "Medium to bright filtered light"
+                },
+                "watering": {
+                    "fa": "حفظ رطوبت ملایم خاک",
+                    "en": "Maintain slight soil moisture"
+                },
+                "height": {
+                    "fa": "۳۰ سانتی‌متر",
+                    "en": "30 cm"
+                },
+                "potSize": 14
+            },
+            "desc": {
+                "fa": "گیاهی با برگ‌های پیکانی شکل پاستلی صورتی، انتخابی ایده‌آل برای ایجاد تضاد رنگی در دکوراسیون مینیمال.",
+                "en": "Arrow-shaped pastel pink leaves make this plant an ideal pop of color for minimal spaces."
+            }
+        },
+        {
+            "id": "p28",
+            "name": {
+                "fa": "بونسای میخک هندی مینیاتوری",
+                "en": "Miniature Pittosporum Bonsai"
+            },
+            "slug": "pittosporum-bonsai",
+            "price": 2400000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col4"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "pittosporum-bonsai.jpg",
+                "File 6.jpg"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 3,
+            "sold": 12,
+            "isFeatured": true,
+            "tags": [
+                "بونسای",
+                "میخک هندی",
+                "لوکس",
+                "کلکسیونی"
+            ],
+            "careLevel": "hard",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "محیط کاملاً روشن و تهویه هوای مناسب",
+                    "en": "Bright atmosphere with good airflow"
+                },
+                "watering": {
+                    "fa": "نیاز به غبارپاشی و آبیاری منظم",
+                    "en": "Requires regular misting and watering"
+                },
+                "height": {
+                    "fa": "۴۵ سانتی‌متر",
+                    "en": "45 cm"
+                },
+                "potSize": 20
+            },
+            "desc": {
+                "fa": "بونسای اصیل میخک هندی با فرم‌دهی ژاپنی فوق‌العاده ظریف و برگ‌های چرمی تیره چترگون.",
+                "en": "Authentic Pittosporum bonsai carefully shaped in traditional Japanese style with dark leathery umbrella-like leaves."
+            }
+        },
+        {
+            "id": "p29",
+            "name": {
+                "fa": "درختچه سرو سیمین مخروطی",
+                "en": "Conical Silver Cypress Shrub"
+            },
+            "slug": "silver-cypress-shrub",
+            "price": 890000,
+            "discountPrice": 750000,
+            "categoryId": "c3",
+            "subCategoryId": "s5",
+            "collectionIds": [
+                "col2"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "silver-cypress.jpg",
+                "banner1.jpeg"
+            ],
+            "rating": 4.5,
+            "inStock": true,
+            "stock": 7,
+            "sold": 54,
+            "isFeatured": false,
+            "tags": [
+                "سرو",
+                "سرو سیمین",
+                "فضای باز",
+                "حیاط",
+                "درختچه"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "full-sun",
+            "specifications": {
+                "light": {
+                    "fa": "آفتاب کامل و مستقیم",
+                    "en": "Full direct sunlight"
+                },
+                "watering": {
+                    "fa": "مقاوم به خشکی بعد از استقرار",
+                    "en": "Drought-tolerant once established"
+                },
+                "height": {
+                    "fa": "۱۱۰ سانتی‌متر",
+                    "en": "110 cm"
+                },
+                "potSize": 26
+            },
+            "desc": {
+                "fa": "درختچه سوزنی‌برگ مخروطی با هاله رنگی نقره‌ای-آبی مقاوم به سرما و گرما مناسب ردیف‌کاری باغچه.",
+                "en": "Conical evergreen shrub with silvery-blue needles, weather-resistant and ideal for outdoor borders."
+            }
+        },
+        {
+            "id": "p30",
+            "name": {
+                "fa": "کاج مطبق کریسمس پرمیوم",
+                "en": "Premium Norfolk Island Christmas Pine"
+            },
+            "slug": "norfolk-island-pine-christmas",
+            "price": 1350000,
+            "discountPrice": null,
+            "categoryId": "c3",
+            "subCategoryId": "s5",
+            "collectionIds": [
+                "col1",
+                "col6"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "norfolk-island-pine-christmas.jpg",
+                "banner2.jpg"
+            ],
+            "rating": 4.8,
+            "inStock": true,
+            "stock": 8,
+            "sold": 98,
+            "isFeatured": true,
+            "tags": [
+                "کاج",
+                "کریسمس",
+                "مطبق",
+                "لوکس"
+            ],
+            "careLevel": "medium",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور زیاد و ملایم، محیط خنک",
+                    "en": "Bright indirect light in cool conditions"
+                },
+                "watering": {
+                    "fa": "مرطوب نگه داشتن نسبی خاک و رطوبت محیطی",
+                    "en": "Maintain moderate soil and ambient moisture"
+                },
+                "height": {
+                    "fa": "۹۵ سانتی‌متر",
+                    "en": "95 cm"
+                },
+                "potSize": 22
+            },
+            "desc": {
+                "fa": "کاج مطبق با طبقات منظم و متقارن ملقب به کاج نورفولک، گزینه‌ای بی‌نظیر برای دیزاین‌های زمستانه.",
+                "en": "Symmetrical Norfolk Island pine with layered branches, perfect for winter holiday decorating."
+            }
+        },
+        {
+            "id": "p31",
+            "name": {
+                "fa": "پیچ گلیسین بنفش (Wisteria Sinensis)",
+                "en": "Purple Wisteria Vine (Wisteria Sinensis)"
+            },
+            "slug": "purple-wisteria-vine",
+            "price": 620000,
+            "discountPrice": 530000,
+            "categoryId": "c3",
+            "subCategoryId": "s6",
+            "collectionIds": [
+                "col2"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "purple-wisteria-vine.jpg",
+                "banner2.jpg"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 14,
+            "sold": 112,
+            "isFeatured": true,
+            "tags": [
+                "پیچ گلیسین",
+                "رونده",
+                "گلدار",
+                "بنفش",
+                "بهاره"
+            ],
+            "careLevel": "medium",
+            "plantSize": "large",
+            "lightLevel": "full-sun",
+            "specifications": {
+                "light": {
+                    "fa": "حداقل ۶ ساعت آفتاب مستقیم روزانه",
+                    "en": "At least 6 hours of direct daily sun"
+                },
+                "watering": {
+                    "fa": "منظم و عمیق در فصل رشد",
+                    "en": "Regular and deep during growing season"
+                },
+                "height": {
+                    "fa": "ریشه ۲ ساله قیم‌دار",
+                    "en": "2-year staked root"
+                },
+                "potSize": 17
+            },
+            "desc": {
+                "fa": "محبوب‌ترین گیاه رونده گلدار با خوشه‌های آویزان بنفش معطر که در فصل بهار منظره‌ای رویایی خلق می‌کند.",
+                "en": "Famous flowering climber bearing fragrant cascading purple clusters that bloom magically in spring."
+            }
+        },
+        {
+            "id": "p32",
+            "name": {
+                "fa": "کلماتیس دکتر روپل",
+                "en": "Dr. Ruppel Clematis"
+            },
+            "slug": "dr-ruppel-clematis",
+            "price": 580000,
+            "discountPrice": null,
+            "categoryId": "c3",
+            "subCategoryId": "s6",
+            "collectionIds": [
+                "col2"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "dr-ruppel-clematis.jpg",
+                "File 9.jpg"
+            ],
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 9,
+            "sold": 38,
+            "isFeatured": false,
+            "tags": [
+                "کلماتیس",
+                "دکتر روپل",
+                "رونده",
+                "صورتی",
+                "گلدار"
+            ],
+            "careLevel": "medium",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "سر آفتاب‌گیر و پای گیاه در سایه",
+                    "en": "Sun-loving top with shaded base"
+                },
+                "watering": {
+                    "fa": "منظم جهت مرطوب ماندن ریشه",
+                    "en": "Regular to keep roots moist"
+                },
+                "height": {
+                    "fa": "بوته رونده با قیم طنابی",
+                    "en": "Climbing vine with rope trellis"
+                },
+                "potSize": 14
+            },
+            "desc": {
+                "fa": "واریته‌ای خیره‌کننده از کلماتیس با گل‌های درشت صورتی که نوار صورتی تیره ارغوانی در مرکز گلبرگ‌ها دارد.",
+                "en": "Stunning clematis variety with large pink blooms featuring a deep magenta-pink stripe along the petals."
+            }
+        },
+        {
+            "id": "p33",
+            "name": {
+                "fa": "کلماتیس برفی ارماندی",
+                "en": "Armandii Snowdrift Clematis"
+            },
+            "slug": "clematis-armandii-snowdrift",
+            "price": 690000,
+            "discountPrice": 610000,
+            "categoryId": "c3",
+            "subCategoryId": "s6",
+            "collectionIds": [
+                "col2"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "clematis-armandii-snowdrift.jpg",
+                "clematis-armandii-snowdrift2.jpg"
+            ],
+            "rating": 4.8,
+            "inStock": true,
+            "stock": 6,
+            "sold": 47,
+            "isFeatured": false,
+            "tags": [
+                "کلماتیس",
+                "ارماندی",
+                "برفی",
+                "سفید",
+                "رونده"
+            ],
+            "careLevel": "medium",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور کامل تا سایه جزئی آفتاب فیلترشده",
+                    "en": "Full sun to partial filtered shade"
+                },
+                "watering": {
+                    "fa": "نیاز به بستر همیشه مرطوب و زهکشی عالی",
+                    "en": "Requires consistently moist soil with excellent drainage"
+                },
+                "height": {
+                    "fa": "بوته رونده متراکم",
+                    "en": "Dense climbing vine"
+                },
+                "potSize": 16
+            },
+            "desc": {
+                "fa": "رونده‌ای همیشه سبز با شکوفه‌های انبوه سفید برفی ستاره‌ای شکل که عطر وانیلی ملایمی در فضا پخش می‌کند.",
+                "en": "Evergreen climber boasting abundant starry snow-white blossoms that release a delicate vanilla fragrance."
+            }
+        },
+        {
+            "id": "p34",
+            "name": {
+                "fa": "درختچه زیتون زینتی مدیترانه‌ای",
+                "en": "Mediterranean Ornamental Olive Tree"
+            },
+            "slug": "mediterranean-olive-tree",
+            "price": 1650000,
+            "discountPrice": null,
+            "categoryId": "c3",
+            "subCategoryId": "s5",
+            "collectionIds": [
+                "col2"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "mediterranean-olive-tree.png",
+                "banner4.jpg"
+            ],
+            "rating": 5.0,
+            "inStock": true,
+            "stock": 3,
+            "sold": 29,
+            "isFeatured": true,
+            "tags": [
+                "زیتون",
+                "مدیترانه ای",
+                "لوکس",
+                "درختچه",
+                "خارجی"
+            ],
+            "careLevel": "medium",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "آفتاب مستقیم شدید و طولانی‌مدت",
+                    "en": "Intense prolonged direct sunlight"
+                },
+                "watering": {
+                    "fa": "اندک و بعد از خشکی عمیق بستر",
+                    "en": "Sparse watering after deep soil drying"
+                },
+                "height": {
+                    "fa": "۱۱۰ سانتی‌متر با تنه فرم‌دار",
+                    "en": "110 cm with styled trunk"
+                },
+                "potSize": 24
+            },
+            "desc": {
+                "fa": "درختچه مظهر صلح و دوام با برگ‌های مینیاتوری نقره‌ای-سبز؛ یکی از پرطرفدارترین المان‌های طراحی حیاط و روف‌گاردن‌های لوکس مدرن.",
+                "en": "Symbol of peace and resilience with silvery-green miniature foliage; a premier feature for modern luxury gardens and roof terraces."
+            }
+        },
+        {
+            "id": "p35",
+            "name": {
+                "fa": "پتوس نئون",
+                "en": "Neon Pothos"
+            },
+            "slug": "neon-pothos",
+            "price": 250000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s2",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "neon-pothos.jpg",
+                "satin-pothos.jpg"
+            ],
+            "rating": 4.1,
+            "inStock": false,
+            "stock": 0,
+            "sold": 140,
+            "isFeatured": false,
+            "tags": [
+                "پتوس",
+                "نئون",
+                "فسفری",
+                "مقاوم",
+                "رونده"
+            ],
+            "careLevel": "easy",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور روشن غیرمستقیم برای حفظ رنگ فسفری",
+                    "en": "Bright indirect light to preserve neon foliage"
+                },
+                "watering": {
+                    "fa": "بعد از خشک شدن خاک سطحی",
+                    "en": "When topsoil dries out"
+                },
+                "height": {
+                    "fa": "۳۵ سانتی‌متر",
+                    "en": "35 cm"
+                },
+                "potSize": 12
+            },
+            "desc": {
+                "fa": "واریته‌ای فوق‌العاده جذاب از پتوس با برگ‌های درخشان به رنگ سبز فسفری لیمویی که به فضاهای کم‌نور انرژی می‌بخشد.",
+                "en": "Vibrant pothos cultivar featuring striking electric lime-green leaves that instantly brighten up indoor spaces."
+            }
+        },
+        {
+            "id": "p36",
+            "name": {
+                "fa": "فیکوس الاستیکا شرابی (شرابی لوکس)",
+                "en": "Burgundy Ficus Elastica"
+            },
+            "slug": "ficus-elastica-sharabi",
+            "price": 1253000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s4",
+            "collectionIds": [
+                "col1",
+                "col4",
+                "col7"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "ficus-elastica-black.jpg",
+                "ficus-elastica.jpg"
+            ],
+            "rating": 4.8,
+            "inStock": false,
+            "stock": 0,
+            "sold": 140,
+            "isFeatured": false,
+            "tags": [
+                "فیکوس",
+                "شرابی",
+                "الاستیکا",
+                "برگ پهن",
+                "لوکس"
+            ],
+            "careLevel": "easy",
+            "plantSize": "medium",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "نور زیاد غيرمستقیم جهت تثبیت رنگ برگ‌ها",
+                    "en": "Bright indirect light to maintain deep coloration"
+                },
+                "watering": {
+                    "fa": "پس از خشک شدن کامل سطح خاک",
+                    "en": "After top layer of soil dries completely"
+                },
+                "height": {
+                    "fa": "۶۵ سانتی‌متر",
+                    "en": "65 cm"
+                },
+                "potSize": 16
+            },
+            "desc": {
+                "fa": "واریته‌ای خاص از فیکوس با برگ‌های چرمی ضخیم به رنگ عنابی و شرابی تیره که نمایی باوقار به دکوراسیون می‌بخشد.",
+                "en": "Distinctive rubber plant variety showcasing thick leathery leaves in deep burgundy and wine tones."
+            }
+        },
+        {
+            "id": "p37",
+            "name": {
+                "fa": "زاموفیلیا شرابی (بلک نایاب)",
+                "en": "Burgundy ZZ Plant"
+            },
+            "slug": "zz-sharabi-large",
+            "price": 5200000,
+            "discountPrice": null,
+            "categoryId": "c2",
+            "subCategoryId": "s3",
+            "collectionIds": [
+                "col1"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "zz-black-large.jpg",
+                "zz-black-large.jpeg"
+            ],
+            "rating": 4.5,
+            "inStock": false,
+            "stock": 0,
+            "sold": 140,
+            "isFeatured": false,
+            "tags": [
+                "زاموفیلیا",
+                "شرابی",
+                "کمیاب",
+                "لوکس",
+                "مقاوم"
+            ],
+            "careLevel": "easy",
+            "plantSize": "large",
+            "lightLevel": "bright-indirect",
+            "specifications": {
+                "light": {
+                    "fa": "سایه‌دوست و سازگار با نور کم تا متوسط",
+                    "en": "Shade tolerant and adaptable to low-medium light"
+                },
+                "watering": {
+                    "fa": "کم‌آبیار، هر ۱۲ الی ۱۵ روز یک‌بار",
+                    "en": "Low watering, once every 12 to 15 days"
+                },
+                "height": {
+                    "fa": "۷۵ سانتی‌متر",
+                    "en": "75 cm"
+                },
+                "potSize": 20
+            },
+            "desc": {
+                "fa": "یکی از نایاب‌ترین و ارزشمندترین واریته‌های زاموفیلیا با برگ‌های ارغوانی-شرابی فوق‌العاده متراکم و براق.",
+                "en": "An extremely rare and premium ZZ plant cultivar boasting glossy, dense foliage in rich burgundy-purple hues."
+            }
+        }
+    ],
+    "accessories": [
+        {
+            "id": "a1",
+            "name": {
+                "fa": "گلدان سرامیکی دست‌ساز خاکی",
+                "en": "Handmade Clay Ceramic Pot"
+            },
+            "slug": "handmade-clay-pot",
+            "price": 450000,
+            "discountPrice": null,
+            "categoryId": "c4",
+            "subCategoryId": "s11",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],  
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 8,
+            "sold": 45,
+            "tags": [
+                "گلدان",
+                "خاک",
+                "سرامیک",
+                "دست ساز",
+                "مات"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "سفال پخته‌شده لعاب‌دار",
+                    "en": "Glazed Fired Terracotta"
+                },
+                "weight": {
+                    "fa": "۱.۲ کیلوگرم",
+                    "en": "1.2 kg"
+                }
+            },
+            "desc": {
+                "fa": "ساخته شده توسط هنرمندان محلی با خاک رس درجه یک و پخت دو مرحله‌ای در کوره با لعاب مات.",
+                "en": "Crafted by local artisans using premium clay with a double-kiln firing process and matte glaze."
+            }
+        },
+        {
+            "id": "a2",
+            "name": {
+                "fa": "باکس هدیه مراقبت ویژه گیاه",
+                "en": "Special Plant Care Gift Box"
+            },
+            "slug": "plant-care-gift-box",
+            "price": 680000,
+            "discountPrice": 590000,
+            "categoryId": "c6",
+            "subCategoryId": "s16",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 5.0,
+            "inStock": true,
+            "stock": 15,
+            "sold": 120,
+            "tags": [
+                "خاک",
+                "هدیه",
+                "باکس",
+                "مراقبت",
+                "کود"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "قیچی هرس، کود ارگانیک، اسپری براق‌کننده",
+                    "en": "Pruning shears, organic fertilizer, shine spray"
+                },
+                "weight": {
+                    "fa": "۵ کیلوگرم",
+                    "en": "5 kg"
+                }
+            },
+            "desc": {
+                "fa": "شامل کود تقویتی، براق‌کننده برگ ارگانیک، قیچی هرس ژاپنی و دفترچه راهنمای کامل مراقبت.",
+                "en": "Includes boosting fertilizer, organic leaf shine spray, Japanese pruning shears, and a comprehensive care guide."
+            }
+        },
+        {
+            "id": "a3",
+            "name": {
+                "fa": "گلدان خودآبیار هوشمند پلیمری",
+                "en": "Smart Polymer Self-Watering Pot"
+            },
+            "slug": "smart-self-watering-pot",
+            "price": 240000,
+            "discountPrice": null,
+            "categoryId": "c4",
+            "subCategoryId": "s12",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.3,
+            "inStock": true,
+            "stock": 50,
+            "sold": 412,
+            "tags": [
+                "خاک",
+                "گلدان",
+                "خودآبیار",
+                "هوشمند",
+                "پلیمر"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "پلی‌پروپیلن مقاوم ضد UV",
+                    "en": "UV-resistant durable polypropylene"
+                },
+                "weight": {
+                    "fa": "۰.۸ لیتر",
+                    "en": "0.8 L"
+                }
+            },
+            "desc": {
+                "fa": "مجهز به مخزن ذخیره آب پایینی جهت تامین رطوبت ریشه به مدت ۲ هفته بدون نیاز به مراقبت.",
+                "en": "Equipped with a bottom water reservoir to hydrate roots for up to 2 weeks effortlessly."
+            }
+        },
+        {
+            "id": "a4",
+            "name": {
+                "fa": "پایه گیاه مدرن ترکیب چوب و فلز",
+                "en": "Modern Wood & Metal Plant Stand"
+            },
+            "slug": "modern-wood-metal-stand",
+            "price": 580000,
+            "discountPrice": 490000,
+            "categoryId": "c4",
+            "subCategoryId": "s13",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 10,
+            "sold": 134,
+            "tags": [
+                "پایه",
+                "چوب",
+                "فلز",
+                "استند"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "ترمووود فنلاندی ضد رطوبت، پروفیل آهن با رنگ کوره‌ای مات",
+                    "en": "Moisture-resistant Finnish Thermowood, matte powder-coated iron"
+                },
+                "weight": {
+                    "fa": "۳۰ کیلوگرم (تحمل وزن)",
+                    "en": "30 kg capacity"
+                }
+            },
+            "desc": {
+                "fa": "پایه‌ای مهندسی‌شده با چوب ترمووود ضدآب و فلز کوره الکترواستاتیک مشکی مات.",
+                "en": "Engineered stand crafted with waterproof Thermowood and matte black electrostatic powder-coated metal."
+            }
+        },
+        {
+            "id": "a5",
+            "name": {
+                "fa": "کارت هدیه دیجیتال اعتباری",
+                "en": "Digital Credit Gift Card"
+            },
+            "slug": "digital-gift-card",
+            "price": 1000000,
+            "discountPrice": null,
+            "categoryId": "c6",
+            "subCategoryId": "s15",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 5.0,
+            "inStock": true,
+            "stock": 99,
+            "sold": 500,
+            "tags": [
+                "هدیه",
+                "کارت",
+                "دیجیتال",
+                "اعتبار"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "ارسال آنی پیامک و ایمیل",
+                    "en": "Instant SMS & Email delivery"
+                },
+                "weight": {
+                    "fa": "دیجیتال (بدون وزن)",
+                    "en": "Digital"
+                }
+            },
+            "desc": {
+                "fa": "ارسال آنی کد تخفیف ۱۰۰٪ اختصاصی به پیامک یا ایمیل شخص هدیه گیرنده با متن دلخواه شما.",
+                "en": "Instant delivery of a custom 100% discount code via SMS or email with your custom message."
+            }
+        },
+        {
+            "id": "a6",
+            "name": {
+                "fa": "باکس گل ارکیده و شکلات بلژیکی",
+                "en": "VIP Orchid & Belgian Chocolate Box"
+            },
+            "slug": "orchid-chocolate-vip-box",
+            "price": 2200000,
+            "discountPrice": null,
+            "categoryId": "c6",
+            "subCategoryId": "s17",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 5.0,
+            "inStock": true,
+            "stock": 2,
+            "sold": 18,
+            "tags": [
+                "باکس",
+                "شکلات",
+                "ارکیده",
+                "VIP"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "شکلات دست‌ساز تلخ بلژیکی",
+                    "en": "Handmade Belgian Dark Chocolate"
+                },
+                "weight": {
+                    "fa": "۳ کیلوگرم",
+                    "en": "3 kg"
+                }
+            },
+            "desc": {
+                "fa": "شیک‌ترین هدیه VIP مجموعه؛ ترکیب گل ارکیده زنده فالانوپسیس مینیاتوری به همراه شکلات‌های دست‌ساز.",
+                "en": "Our ultimate VIP gift; pairing a live miniature Phalaenopsis orchid with artisan dark chocolates."
+            }
+        },
+        {
+            "id": "a7",
+            "name": {
+                "fa": "خاک بستر کشت تخصصی گیاهان آپارتمانی",
+                "en": "Premium Houseplant Potting Soil Mix"
+            },
+            "slug": "premium-houseplant-soil-mix",
+            "price": 120000,
+            "discountPrice": 95000,
+            "categoryId": "c5",
+            "subCategoryId": "s18",
+            "collectionIds": [
+                "col9"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.8,
+            "inStock": true,
+            "stock": 150,
+            "sold": 680,
+            "tags": [
+                "خاک",
+                "بستر کشت",
+                "پیت ماس",
+                "پرلیت"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "ترکیب پیت ماس، کوکوپیت، پرلیت و ورمی‌کمپوست",
+                    "en": "Blend of peat moss, coco peat, perlite & vermicompost"
+                },
+                "weight": {
+                    "fa": "۵ کیلوگرم",
+                    "en": "5 kg"
+                }
+            },
+            "desc": {
+                "fa": "خاک سبک با زهکشی ایده‌آل و غنی‌شده با مواد مغذی ارگانیک، مانع از پوسیدگی ریشه گیاه شما می‌شود.",
+                "en": "Lightweight soil mix with superior drainage and organic nutrients, effectively preventing root rot."
+            }
+        },
+        {
+            "id": "a8",
+            "name": {
+                "fa": "کود مایع NPK سه بیست (۲۰-۲۰-۲۰)",
+                "en": "NPK 20-20-20 Liquid Fertilizer"
+            },
+            "slug": "npk-20-20-20-liquid-fertilizer",
+            "price": 85000,
+            "discountPrice": null,
+            "categoryId": "c5",
+            "subCategoryId": "s19",
+            "collectionIds": [
+                "col9"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.6,
+            "inStock": true,
+            "stock": 85,
+            "sold": 340,
+            "tags": [
+                "کود",
+                "تقویتی",
+                "سه بیست",
+                "رشد"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "عناصر ماکرو متعادل به همراه ریزمغذی‌ها",
+                    "en": "Balanced macro-elements with essential micronutrients"
+                },
+                "weight": {
+                    "fa": "۲۵۰ میلی‌لیتر",
+                    "en": "250 ml"
+                }
+            },
+            "desc": {
+                "fa": "کود کامل عمومی برای تحریک رشد، سبزینگی و تقویت ریشه و برگ انواع گیاهان آپارتمانی در فصل رشد.",
+                "en": "All-purpose complete fertilizer to stimulate foliage growth, root strengthening, and vibrant leaf colors."
+            }
+        },
+        {
+            "id": "a9",
+            "name": {
+                "fa": "اسپری قارچ‌کش بیولوژیک آماده مصرف",
+                "en": "Ready-to-Use Bio-Fungicide Spray"
+            },
+            "slug": "ready-to-use-bio-fungicide-spray",
+            "price": 110000,
+            "discountPrice": 98000,
+            "categoryId": "c5",
+            "subCategoryId": "s20",
+            "collectionIds": [
+                "col9"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.5,
+            "inStock": true,
+            "stock": 40,
+            "sold": 115,
+            "tags": [
+                "سم",
+                "قارچ کش",
+                "درمان",
+                "اسپری"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "ترکیبات مسی ارگانیک ایمن برای محیط خانه",
+                    "en": "Safe organic copper-based indoor formula"
+                },
+                "weight": {
+                    "fa": "۵۰۰ میلی‌لیتر",
+                    "en": "500 ml"
+                }
+            },
+            "desc": {
+                "fa": "پیشگیری و درمان سریع لکه‌های برگی، سفیدک و بیماری‌های قارچی شایع گیاهان بدون بو و خطر برای حیوانات خانگی.",
+                "en": "Fast-acting organic control for leaf spots and mildew; pet-safe and odorless."
+            }
+        },
+        {
+            "id": "a10",
+            "name": {
+                "fa": "قطره محرک ریشه‌زایی ارگانیک",
+                "en": "Organic Rooting Stimulator Drops"
+            },
+            "slug": "organic-rooting-stimulator-drops",
+            "price": 145000,
+            "discountPrice": null,
+            "categoryId": "c5",
+            "subCategoryId": "s19",
+            "collectionIds": [
+                "col9"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.9,
+            "inStock": true,
+            "stock": 60,
+            "sold": 210,
+            "tags": [
+                "کود",
+                "ریشه زا",
+                "هورمون",
+                "تقویتی"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "عصاره جلبک دریایی و اسید آمینه فعال",
+                    "en": "Seaweed extract and active amino acids"
+                },
+                "weight": {
+                    "fa": "۶۰ میلی‌لیتر",
+                    "en": "60 ml"
+                }
+            },
+            "desc": {
+                "fa": "فرمولاسیون ویژه برای کاهش استرس جابجایی تعویض گلدان و تحریک ریشه‌زایی سریع‌تر پاجوش‌ها و قلمه گیاهان.",
+                "en": "Special formula designed to alleviate repotting shock and encourage rapid root formation on cuttings."
+            }
+        },
+        {
+            "id": "a11",
+            "name": {
+                "fa": "اسپری حشره‌کش و کنه‌کش ارگانیک (پالیزین)",
+                "en": "Organic Palizin Insecticide & Mite Spray"
+            },
+            "slug": "organic-insecticide-palizin-spray",
+            "price": 95000,
+            "discountPrice": null,
+            "categoryId": "c5",
+            "subCategoryId": "s20",
+            "collectionIds": [
+                "col9"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.4,
+            "inStock": true,
+            "stock": 55,
+            "sold": 198,
+            "tags": [
+                "سم",
+                "حشره کش",
+                "شپشک",
+                "کنه"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "صابون گیاهی عصاره نارگیل و صمغ‌های طبیعی",
+                    "en": "Botanical coconut soap and natural resins"
+                },
+                "weight": {
+                    "fa": "۵۰۰ میلی‌لیتر",
+                    "en": "500 ml"
+                }
+            },
+            "desc": {
+                "fa": "نابودکننده ارگانیک شپشک آردآلود، شته و کنه تارعنکبوتی؛ کاملاً بی‌خطر برای انسان و بدون نیاز به تخلیه فضا.",
+                "en": "Organic treatment targeting mealybugs, aphids, and spider mites; non-toxic and human-safe."
+            }
+        },
+        {
+            "id": "a12",
+            "name": {
+                "fa": "رطوبت‌سنج و سنجش‌گر pH خاک ۳ کاره",
+                "en": "3-in-1 Soil Moisture, Light & pH Meter"
+            },
+            "slug": "3-in-1-soil-moisture-ph-light-meter",
+            "price": 380000,
+            "discountPrice": 320000,
+            "categoryId": "c4",
+            "subCategoryId": "s14",
+            "collectionIds": [
+                "col8"
+            ],
+            "brand": "GreenHouse",
+            "images": [
+                "Pots-and-gardening-tools2.jpg",
+                "Pots-and-gardening-tools.png"
+            ],
+            "rating": 4.7,
+            "inStock": true,
+            "stock": 25,
+            "sold": 89,
+            "tags": [
+                "ابزار",
+                "رطوبت سنج",
+                "هوشمند",
+                "تجهیزات"
+            ],
+            "specifications": {
+                "material": {
+                    "fa": "سنسور دوقلو فلزی بدون نیاز به باتری",
+                    "en": "Dual-metal probe sensor (Battery-free)"
+                },
+                "weight": {
+                    "fa": "۱۵۰ گرم",
+                    "en": "150 g"
+                }
+            },
+            "desc": {
+                "fa": "دستگاه سنجش ۳ کاره برای اندازه‌گیری دقیق میزان رطوبت خاک، میزان نور محیطی گیاه و اسیدیته (pH) خاک.",
+                "en": "Versatile 3-in-1 tool measuring precise soil moisture, sunlight intensity, and soil pH level."
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": "c1",
+            "name": {
+                "fa": "محصولات جدید",
+                "en": "New Arrivals"
+            },
+            "slug": "new-arrivals",
+            "desc": {
+                "fa": "از جدیدترین محصولات گلخانه ما دیدن کنید",
+                "en": "Explore our latest greenhouse additions"
+            },
+            "image": "banner6.jpg"
+        },
+        {
+            "id": "c2",
+            "name": {
+                "fa": "گیاهان آپارتمانی",
+                "en": "Indoor Plants"
+            },
+            "slug": "indoor-plants",
+            "desc": {
+                "fa": "طراوت و شادابی را به اتاق نشیمن خود بیاورید.",
+                "en": "Bring freshness and warmth into your living room."
+            },
+            "image": "banner3.jpg"
+        },
+        {
+            "id": "c3",
+            "name": {
+                "fa": "گیاهان فضای باز",
+                "en": "Outdoor Plants"
+            },
+            "slug": "outdoor-plants",
+            "desc": {
+                "fa": "باغچه و بالکن خود را به یک بهشت کوچک تبدیل کنید.",
+                "en": "Transform your garden or balcony into a lush paradise."
+            },
+            "image": "lemon1.jpg"
+        },
+        {
+            "id": "c4",
+            "name": {
+                "fa": "گلدان‌ها",
+                "en": "Pots & Planters"
+            },
+            "slug": "pots",
+            "desc": {
+                "fa": "خانه جدید گیاهتان؛ در رنگ‌ها و طرح‌های مختلف.",
+                "en": "A new home for your plant in varied styles and colors."
+            },
+            "image": "cactus.jpg"
+        },
+        {
+            "id": "c5",
+            "name": {
+                "fa": "ارکیده‌ها",
+                "en": "Orchids"
+            },
+            "slug": "orchids",
+            "desc": {
+                "fa": "لوکس‌ترین هدیه با ماندگاری طولانی.",
+                "en": "The ultimate luxury gift with long-lasting blooms."
+            },
+            "image": "orchid.jpg"
+        },
+        {
+            "id": "c6",
+            "name": {
+                "fa": "هدایا",
+                "en": "Gifts"
+            },
+            "slug": "gifts",
+            "desc": {
+                "fa": "با فرستادن یک گیاه زیبا، عزیزانتان را غافلگیر کنید.",
+                "en": "Surprise your loved ones with an elegant green gift."
+            },
+            "image": "File 1.jpg"
+        },
+        {
+            "id": "c7",
+            "name": {
+                "fa": "حراج",
+                "en": "Sale"
+            },
+            "slug": "sale",
+            "desc": {
+                "fa": "بهترین قیمت‌ها؛ فقط تا پایان موجودی این هفته!",
+                "en": "Best deals available while stocks last this week!"
+            },
+            "image": "monestra.jpg"
+        }
+    ],
+    "subCategories": [
+        {
+            "id": "s1",
+            "categoryId": "c1",
+            "name": {
+                "fa": "جدیدترین گیاهان ماه",
+                "en": "New Plants of the Month"
+            }
+        },
+        {
+            "id": "s2",
+            "categoryId": "c1",
+            "name": {
+                "fa": "مجموعه پتوس‌های خاص",
+                "en": "Special Pothos Collection"
+            }
+        },
+        {
+            "id": "s3",
+            "categoryId": "c2",
+            "name": {
+                "fa": "زاموفیلیا و سانسوریا",
+                "en": "ZZ & Snake Plants"
+            }
+        },
+        {
+            "id": "s4",
+            "categoryId": "c2",
+            "name": {
+                "fa": "گیاهان تصفیه‌کننده هوا",
+                "en": "Air Purifying Plants"
+            }
+        },
+        {
+            "id": "s5",
+            "categoryId": "c3",
+            "name": {
+                "fa": "انواع درختچه‌ها",
+                "en": "Shrubs & Trees"
+            }
+        },
+        {
+            "id": "s6",
+            "categoryId": "c3",
+            "name": {
+                "fa": "گل‌های فصلی",
+                "en": "Seasonal Flowers"
+            }
+        },
+        {
+            "id": "s7",
+            "categoryId": "c3",
+            "name": {
+                "fa": "ساکولنت‌ها و کاکتوس‌ها",
+                "en": "Succulents & Cacti"
+            }
+        },
+        {
+            "id": "s9",
+            "categoryId": "c5",
+            "name": {
+                "fa": "ارکیده فالانوپسیس",
+                "en": "Phalaenopsis Orchid"
+            }
+        },
+        {
+            "id": "s10",
+            "categoryId": "c5",
+            "name": {
+                "fa": "ارکیده دندروبیوم",
+                "en": "Dendrobium Orchid"
+            }
+        },
+        {
+            "id": "s11",
+            "categoryId": "c4",
+            "name": {
+                "fa": "گلدان‌های سرامیکی دست‌ساز",
+                "en": "Handmade Ceramic Pots"
+            }
+        },
+        {
+            "id": "s12",
+            "categoryId": "c4",
+            "name": {
+                "fa": "گلدان‌های خودآبیار",
+                "en": "Self-Watering Pots"
+            }
+        },
+        {
+            "id": "s13",
+            "categoryId": "c4",
+            "name": {
+                "fa": "پایه‌های چوبی و فلزی",
+                "en": "Wood & Metal Stands"
+            }
+        },
+        {
+            "id": "s15",
+            "categoryId": "c6",
+            "name": {
+                "fa": "کارت هدیه دیجیتال",
+                "en": "Digital Gift Cards"
+            }
+        },
+        {
+            "id": "s16",
+            "categoryId": "c6",
+            "name": {
+                "fa": "ست کامل مراقبت از گیاه",
+                "en": "Plant Care Gift Sets"
+            }
+        },
+        {
+            "id": "s17",
+            "categoryId": "c6",
+            "name": {
+                "fa": "باکس گل و شکلات",
+                "en": "Flower & Chocolate Boxes"
+            }
+        },
+        {
+            "id": "s18",
+            "categoryId": "c7",
+            "name": {
+                "fa": "پک‌های اقتصادی گیاهان",
+                "en": "Budget Plant Packs"
+            }
+        }
+    ],
+    "collections": [
+        {
+            "id": "col1",
+            "name": {
+                "fa": "گیاهان آپارتمانی",
+                "en": "Indoor Plants"
+            },
+            "image": "aglaonema-super-white.jpg",
+            "slug": "indoor-plants"
+        },
+        {
+            "id": "col2",
+            "name": {
+                "fa": "گیاهان فضای باز",
+                "en": "Outdoor Plants"
+            },
+            "image": "purple-wisteria-vine.jpg",
+            "slug": "outdoor-plants"
+        },
+        {
+            "id": "col3",
+            "name": {
+                "fa": "گیاهان مناسب حیوانات خانگی",
+                "en": "Pet-Friendly Plants"
+            },
+            "image": "Pet-Friendly Plants.jpg",
+            "slug": "pet-friendly-plants"
+        },
+        {
+            "id": "col4",
+            "name": {
+                "fa": "گیاهان با مراقبت آسان",
+                "en": "Easy-Care Plants"
+            },
+            "image": "sansevieria-ablag.jpg",
+            "slug": "easy-care-plants"
+        },
+        {
+            "id": "col5",
+            "name": {
+                "fa": "ارکیده‌ها",
+                "en": "Orchids"
+            },
+            "image": "orchid.jpg",
+            "slug": "orchids"
+        },
+        {
+            "id": "col6",
+            "name": {
+                "fa": "گیاهان آپارتمانی بزرگ و غول‌پیکر",
+                "en": "Large & Giant Indoor Plants"
+            },
+            "image": "paradis.jpg",
+            "slug": "large-plants"
+        },
+        {
+            "id": "col7",
+            "name": {
+                "fa": "گیاهان مقاوم به نور کم",
+                "en": "Low-Light Plants"
+            },
+            "image": "variegated-pothos.jpg",
+            "slug": "low-light-plants"
+        },
+        {
+            "id": "col8",
+            "name": {
+                "fa": "مراقبت از گیاهان",
+                "en": "Plant Care Essentials"
+            },
+            "image": "Plant Care.jpg",
+            "slug": "plant-care"
+        }
+    ],
+    "potOptions": [
+        {
+            "name": {
+                "fa": "سفالی",
+                "en": "Earthenware"
+            },
+            "value": "Earthenware",
+            "colors": [
+                {
+                    "name": {
+                        "fa": "قهوه‌ای",
+                        "en": "Brown"
+                    },
+                    "value": "#795548",
+                    "price": 150000
+                },
+                {
+                    "name": {
+                        "fa": "کرم",
+                        "en": "Beige"
+                    },
+                    "value": "#E8DCC8",
+                    "price": 150000
+                }
+            ]
+        },
+        {
+            "name": {
+                "fa": "سرامیکی",
+                "en": "Ceramic"
+            },
+            "value": "Ceramic",
+            "colors": [
+                {
+                    "name": {
+                        "fa": "سفید",
+                        "en": "White"
+                    },
+                    "value": "#FFFFFF",
+                    "price": 350000
+                },
+                {
+                    "name": {
+                        "fa": "مشکی",
+                        "en": "Black"
+                    },
+                    "value": "#212121",
+                    "price": 350000
+                },
+                {
+                    "name": {
+                        "fa": "کرم",
+                        "en": "Beige"
+                    },
+                    "value": "#E8DCC8",
+                    "price": 350000
+                }
+            ]
+        },
+        {
+            "name": {
+                "fa": "پلاستیکی",
+                "en": "Plastic"
+            },
+            "value": "Plastic",
+            "colors": [
+                {
+                    "name": {
+                        "fa": "سفید",
+                        "en": "White"
+                    },
+                    "value": "#FFFFFF",
+                    "price": 200000
+                },
+                {
+                    "name": {
+                        "fa": "مشکی",
+                        "en": "Black"
+                    },
+                    "value": "#212121",
+                    "price": 0
+                },
+                {
+                    "name": {
+                        "fa": "کرم",
+                        "en": "Beige"
+                    },
+                    "value": "#E8DCC8",
+                    "price": 200000
+                },
+                {
+                    "name": {
+                        "fa": "قهوه‌ای",
+                        "en": "Brown"
+                    },
+                    "value": "#795548",
+                    "price": 200000
+                },
+                {
+                    "name": {
+                        "fa": "سبز",
+                        "en": "Green"
+                    },
+                    "value": "#6B8E23",
+                    "price": 200000
+                }
+            ]
+        }
+    ],
+    "banners": {
+        "id": "b1",
+        "title": [
+            {
+                "fa": "طبیعت را به خانه بیاور🌱",
+                "en": "Bring Nature Home 🌱"
+            },
+            {
+                "fa": "طراوت را به خانه بیاورید☘️",
+                "en": "Invite Freshness Inside ☘️"
+            }
+        ],
+        "subtitle": {
+            "fa": "مجموعه‌ای از گیاهان سالم و زیبا برای هر فضای زندگی...",
+            "en": "A curated collection of healthy and beautiful plants for any space..."
+        },
+        "ctaText": {
+            "fa": "مشاهده همه محصولات 🪴",
+            "en": "Shop All Products 🪴"
+        },
+        "link": "products",
+        "images": [
+            "banner7.jpg",
+            "banner2.jpg",
+            "banner3.jpg",
+            "banner4.jpg",
+            "banner5.jpg",
+            "banner6.jpg",
+            "banner8.jpg",
+            "banner1.jpeg"
+        ]
+    }
+}

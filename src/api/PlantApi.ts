@@ -227,6 +227,7 @@ export const PlantsApi = createApi({
 
                 const pattern = `%${query}%`;
 
+                // اگر فیلدها JSON هستند، با تیره‌‌خط ->> مقدار متنی آن را دریافت می‌کنیم:
                 const [
                     plantsRes,
                     accessoriesRes,
@@ -237,32 +238,39 @@ export const PlantsApi = createApi({
                     supabase
                         .from('plants')
                         .select('*')
-                        .or(`name.ilike.${pattern},slug.ilike.${pattern},description.ilike.${pattern},brand.ilike.${pattern},specifications.ilike.${pattern}`)
+                        .or(`name->>fa.ilike.${pattern},name->>en.ilike.${pattern},slug.ilike.${pattern}`)
                         .limit(4),
 
                     supabase
                         .from('accessories')
                         .select('*')
-                        .or(`name.ilike.${pattern},slug.ilike.${pattern},description.ilike.${pattern},brand.ilike.${pattern}`)
+                        .or(`name->>fa.ilike.${pattern},name->>en.ilike.${pattern},slug.ilike.${pattern}`)
                         .limit(2),
 
                     supabase
                         .from('categories')
                         .select('*')
-                        .or(`name.ilike.${pattern},slug.ilike.${pattern},description.ilike.${pattern}`)
+                        .or(`name->>fa.ilike.${pattern},name->>en.ilike.${pattern},slug.ilike.${pattern}`)
                         .limit(3),
 
                     supabase
                         .from('sub_categories')
                         .select('*')
-                        .ilike('name', pattern)
+                        .or(`name->>fa.ilike.${pattern},name->>en.ilike.${pattern}`)
                         .limit(3),
+
                     supabase
                         .from('collections')
                         .select('*')
-                        .or(`name.ilike.${pattern},slug.ilike.${pattern}`)
+                        .or(`name->>fa.ilike.${pattern},name->>en.ilike.${pattern},slug.ilike.${pattern}`)
                         .limit(3),
                 ]);
+
+                if (plantsRes.error) console.error("Error searching plants:", plantsRes.error);
+                if (accessoriesRes.error) console.error("Error searching accessories:", accessoriesRes.error);
+                if (categoriesRes.error) console.error("Error searching categories:", categoriesRes.error);
+                if (subCategoriesRes.error) console.error("Error searching sub_categories:", subCategoriesRes.error);
+                if (collectionsRes.error) console.error("Error searching collections:", collectionsRes.error);
 
                 return {
                     data: {

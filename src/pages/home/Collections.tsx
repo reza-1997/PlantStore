@@ -14,7 +14,7 @@ const Collections = () => {
 
     const theme = useTheme()
     const { lang } = useParams<{ lang: string }>()
-    const isRtl = lang === 'fa';
+    // const isRtl = lang === 'fa';
 
 
     const { data: Collections, isLoading, isSuccess, isError } = useGetAllCollectionsQuery();
@@ -35,10 +35,12 @@ const Collections = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                flexDirection: 'column'
+                flexDirection: 'column',
+                position: 'relative',
+                overflow: 'hidden'
             }}>
                 {/* background Image */}
-                <Box component={"img"}
+                {/* <Box component={"img"}
                     src={getImageUrl("background4.png")}
                     alt="backgroundImage"
                     sx={{
@@ -52,7 +54,7 @@ const Collections = () => {
                         transform: isRtl ? "none" : "scaleX(-1)",
                         display: { xs: "none", sm: 'none', md: 'none', lg: "none", xl: "block" }
                     }}
-                />
+                /> */}
 
                 <Box sx={{ textAlign: 'start', width: { xs: "93%", sm: '92%', md: "85%", lg: '88%', xl: '85%' }, mb: 7 }}>
                     <Typography

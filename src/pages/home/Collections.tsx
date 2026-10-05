@@ -46,10 +46,11 @@ const Collections = () => {
                         width: 500,
                         position: 'absolute',
                         opacity: 0.6,
-                        top: 3230,
+                        top: 3260,
                         right: -200,
+                        zIndex: 0,
                         transform: isRtl ? "none" : "scaleX(-1)",
-                        display: { sm: "none", md: "block" }
+                        display: { xs: "none", sm: 'none', md: 'none', lg: "none", xl: "block" }
                     }}
                 />
 

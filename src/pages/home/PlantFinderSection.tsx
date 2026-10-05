@@ -20,6 +20,7 @@ import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 import SpaOutlinedIcon from '@mui/icons-material/SpaOutlined';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ScrollAnimate from '../../components/common/ScrollAnimate';
+import { getImageUrl } from '../../utils/imageUrl';
 
 const FINDER_ITEMS = [
     {
@@ -27,7 +28,7 @@ const FINDER_ITEMS = [
         titleKey: 'plantFinder.items.lowLight.title',
         subtitleKey: 'plantFinder.items.lowLight.subtitle',
         icon: WbSunnyOutlinedIcon,
-        image: "https://cdn.shopify.com/s/files/1/0852/6482/6664/files/bloomscape_mini-low-light_horizontal_edited500_893ddff1-8723-4dd1-ae89-7dd18027203b.jpg?v=1759901446",
+        image: getImageUrl("low-light.jpg"),
         CollectionId: `col7`,
     },
     {
@@ -35,7 +36,7 @@ const FINDER_ITEMS = [
         titleKey: 'plantFinder.items.petFriendly.title',
         subtitleKey: 'plantFinder.items.petFriendly.subtitle',
         icon: PetsOutlinedIcon,
-        image: "https://cdn.shopify.com/s/files/1/0852/6482/6664/files/pet-friendly-plants.jpg?v=1724290513",
+        image: getImageUrl("pet-friendly-plants.jpg"),
         CollectionId: `col3`,
     },
     {
@@ -43,7 +44,7 @@ const FINDER_ITEMS = [
         titleKey: 'plantFinder.items.statement.title',
         subtitleKey: 'plantFinder.items.statement.subtitle',
         icon: AutoAwesomeOutlinedIcon,
-        image: 'https://cdn.shopify.com/s/files/1/0852/6482/6664/files/giant-plants.jpg?v=1724290524',
+        image: getImageUrl("giant-plants.jpg"),
         CollectionId: `col6`,
     },
     {
@@ -51,7 +52,7 @@ const FINDER_ITEMS = [
         titleKey: 'plantFinder.items.easyCare.title',
         subtitleKey: 'plantFinder.items.easyCare.subtitle',
         icon: SpaOutlinedIcon,
-        image: 'https://cdn.shopify.com/s/files/1/0852/6482/6664/files/bloomscape_low-maintenance-plants_group_vertical-webimage.jpg?v=1772483265',
+        image: getImageUrl("mini-succulent.jpg"),
         CollectionId: `col4`,
 
     },

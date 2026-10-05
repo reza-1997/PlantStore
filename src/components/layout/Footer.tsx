@@ -84,6 +84,7 @@ const Footer = () => {
                 pt: 8,
                 pb: 3,
                 width: '100%',
+                zIndex:1
             }}
         >
             <Container

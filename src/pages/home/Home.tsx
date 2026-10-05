@@ -7,19 +7,14 @@ import { useParams } from "react-router-dom";
 import PlantFinderSection from "./PlantFinderSection";
 import { getImageUrl } from "../../utils/imageUrl";
 
-
-
 const Home = () => {
-
   const { lang } = useParams<{ lang: string }>();
   const isRtl = lang === 'fa';
-
-  const theme = useTheme()
+  const theme = useTheme();
 
   return (
-
-    <>
-      {/* background Image */}
+    <Box sx={{ overflow: 'hidden', width: '100%' }}>
+      {/* background Image 1 */}
       <Box component={"img"}
         src={getImageUrl("background1.png")}
         alt="backgroundImage"
@@ -32,10 +27,11 @@ const Home = () => {
           left: -100,
           zIndex: -1,
           transform: isRtl ? "none" : "scaleX(-1)",
-          display: { sm: "none", md: "block" }
+          display: { xs: "none", md: "block" }
         }}
       />
 
+      {/* background Image 2 */}
       <Box component={"img"}
         src={getImageUrl("background1.png")}
         alt="backgroundImage"
@@ -46,27 +42,14 @@ const Home = () => {
           opacity: theme.palette.mode === 'dark' ? 0.3 : 0.6,
           bottom: -760,
           left: -100,
-          zIndex: 1,
+          zIndex: 0,
           transform: isRtl ? "scaleY(-1)" : "scale(-1, -1)",
-          display: { sm: "none", md: "block" }
+          display: { xs: "none", md: "block" }
         }}
       />
-
-      <Box component={"img"}
-        src={getImageUrl("background.png")}
-        alt="backgroundImage"
-        sx={{
-          position: 'absolute',
-          opacity: theme.palette.mode === 'dark' ? 0.1 : 0.3,
-          top: -120,
-          right: -200,
-          zIndex: -1,
-          display: { sm: 'block', md: 'none' }
-        }}
-      />
-
 
       <HomeHero />
+
       <ScrollAnimate>
         <PlantFinderSection />
       </ScrollAnimate>
@@ -78,16 +61,8 @@ const Home = () => {
       <ScrollAnimate>
         <Collections />
       </ScrollAnimate>
-
-    </>
-
-
-
-  )
-
+    </Box>
+  );
 };
 
 export default Home;
-
-
-

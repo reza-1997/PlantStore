@@ -40,6 +40,7 @@ import { showNotification } from "../../../api/uiSlice";
 import LogoutDialog from "../../common/LogoutDialog";
 import { useLogoutModal } from "../../../hooks/useLogoutModal";
 import UserDrawerSkeleton from "./UserDrawerSkeleton"; // Import skeleton
+import { getImageUrl } from "../../../utils/imageUrl";
 
 interface UserDrawerProps {
     open: boolean;
@@ -181,7 +182,7 @@ const UserDrawer = ({ open, onClose }: UserDrawerProps) => {
                         sx={{
                             position: "relative",
                             height: 160,
-                            backgroundImage: 'url("https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=800&auto=format&fit=crop")',
+                            backgroundImage: `url(${getImageUrl("clematis-armandii-snowdrift2.jpg")})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             display: "flex",

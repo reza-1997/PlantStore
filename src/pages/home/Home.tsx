@@ -6,6 +6,7 @@ import { Box, useTheme } from "@mui/material";
 import { useParams } from "react-router-dom";
 import PlantFinderSection from "./PlantFinderSection";
 import { getImageUrl } from "../../utils/imageUrl";
+import NewestPlantsSection from "./NewestPlantsSection";
 
 const Home = () => {
   const { lang } = useParams<{ lang: string }>();
@@ -61,6 +62,11 @@ const Home = () => {
       <ScrollAnimate>
         <Collections />
       </ScrollAnimate>
+
+      <ScrollAnimate>
+        <NewestPlantsSection />
+      </ScrollAnimate>
+
     </Box>
   );
 };
